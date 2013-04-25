@@ -1,0 +1,31 @@
+{# This template should be included where you want to see the list of items for sale #}
+{# REQUIRED: items_for_sale : List of ItemForSale#}
+{# OPTIONAL : error - if search returns nothing #}
+
+{% if error %}
+  <p style="color:red;">Please enter search term.</p>
+{% endif %}
+
+<form action="" method="GET">
+    <input type="text" name="filter">
+    <input type="submit" value="Search">
+</form>
+<h4>
+    Items for sale as of {{ current_date }}
+</h4>
+{% for item in items_for_sale %}
+
+<p>
+<span>
+<a href="/itemDetails/{{ item.id }}">
+    {{ item.title }}
+</a>
+</span>
+<span>{{ item.price }}</span>
+<span>{{ item.listing_date }}</span>
+</p>
+
+{% empty %}
+    <p>No items match your search terms.</p>
+
+{% endfor %}

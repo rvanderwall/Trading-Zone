@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ember Starter Kit 2</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <script type="text/x-handlebars">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="#">Blogger</a>
+        <ul class="nav">
+          <li>{{#linkTo 'posts'}}Posts{{/linkTo}}</li>
+          <li>{{#linkTo 'about'}}About{{/linkTo}}</li>
+        </ul>
+      </div>
+    </div>
+	
+	{{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id="about">
+    <div class='about'>
+	  <p>This is the content of the first about class in the about script.
+	</div>
+	
+	<div class='about'>
+	  <p> this is the content of the second about class in the about script.</p>
+	</div>
+  </script>
+
+  <script type="text/x-handlebars" id="posts">
+    <div class="container-fluid">
+	  <div class="row-fluid">
+	    <div class="span3">
+		  <table class="table">
+		     <thead>
+			   <tr><th>Recent Posts</th></tr>
+			 </thead>
+			 <tr><td>
+			   <a href='#'>Title <small class='muted'>by Author</small></a>
+			 </td></tr>
+		  </table>
+		</div>
+		<div class="span9">
+		</div>
+	  </div>
+	</div>
+  </script>
+       		
+			
+  <script src="js/libs/jquery-1.9.1.js"></script>
+  <script src="js/libs/handlebars-1.0.0-rc.3.js"></script>
+  <script src="js/libs/ember-1.0.0-rc.2.js"></script>
+  <script src="js/libs/showdown.js"></script>
+  <script src="js/libs/moment.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

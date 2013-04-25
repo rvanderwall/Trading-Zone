@@ -1,0 +1,15 @@
+<!DOCTYPE html public>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+  {%  include "NavBar.html" %}
+  <h1>My Test site</h1>
+  {% block content %}{% endblock %}
+  {% block footer %}
+      <hr>
+      <p>Thanks for visiting.</p>
+  {% endblock %}
+</body>
+</html>

@@ -1,0 +1,44 @@
+{# This template should be included where you want to see the list of search-notification requests #}
+{# REQUIRED: notice_requests : List of ItemForSale#}
+{# OPTIONAL : error - if search returns nothing #}
+{# OPTIONAL : form #}
+
+{% if form %}
+    <p>To add a search-notification request</p>
+
+    <form action="" method="post">{% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="Add">
+    </form>
+{% endif %}
+
+<h3>Currently pending requests.</h3>
+{% if error %}
+    <p style="color:red;">Please enter search term.</p>
+{% endif %}
+
+<form action="" method="GET">
+    <input type="text" name="filter">
+    <input type="submit" name="Search">
+</form>
+
+{% for item in notice_requests %}
+
+    {% if forloop.first %}
+        <table>
+        <tr><thead>Search Notification Requests</thead></tr>
+        <tr><th>Title</th><th>Search terms</th><th>Email</th><th>Date Listed</th></tr>
+    {% endif %}
+
+<tr><td>{{ item.title }}</td><td>{{ item.search_text }}</td><td>{{ item.email }}</td><td>{{ item.create_date }}</td></tr>
+
+{% if forloop.last %}
+    </table>
+{% endif %}
+
+{% empty %}
+    <p>No items match your search terms.</p>
+
+{% endfor %}

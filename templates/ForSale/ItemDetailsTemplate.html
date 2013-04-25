@@ -1,0 +1,17 @@
+{# This template should be included where you want to see the list of items for sale #}
+{# REQUIRED: item : an ItemForSale#}
+
+<h4>
+    {{ item.title }}
+</h4>
+<p>
+    <p>
+        Price: <span>{{ item.price }}</span>
+    </p>
+    <p>
+        Listed: <span>{{ item.listing_date }}</span>
+    </p>
+    <p>
+    Description:    <span>{{ item.description }}</span>
+    </p>
+</p>

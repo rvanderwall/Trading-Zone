@@ -1,0 +1,42 @@
+PACKAGES:
+    mysql (run mysql_install_db)
+    PyMySQL
+
+Starting mysql:
+    bin/mysqld_safe &
+
+creating a project from command line:
+    django-admin.py startproject mysite
+
+Running from the command line:
+    python manage.py runserver
+
+Validate Models:
+    python manage.py validate
+
+Create SQL commands to generate tables:
+    python manage.py sqlall TraderApp
+
+To see existing schema:
+    manage.py sql TraderApp
+
+To Actually Create the SQL tables:
+    python manage.py syncdb
+
+
+To generate SQL that will drop all databases:
+    python manage.py sqlclear TraderApp
+
+To save, update schema, and reload:
+    python manage.py dumpdata TraderApp > temp_data.json
+    python manage.py sqlclear TraderApp > sqlDrop.sql
+    python manage.py dbshell  ## run the sql drop commands
+    python manage.py syncdb
+    python manage.py loaddata temp_data.json
+
+
+Migration tool:
+    http://south.aeracode.org/
+
+ADMIN:
+    robertv/password
