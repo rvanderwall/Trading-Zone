@@ -17,21 +17,21 @@ def hello(request):
 # Get a template and render it using a context.
 def current_datetime0(request):
     now = datetime.datetime.now()
-    t = get_template('current_datetime.html')
+    t = get_template('CurDatePage.html')
     html = t.render(Context({'current_date': now}))
     return HttpResponse(html)
 
 # use render_to_response to template and render in one call
 def current_datetime1(request):
     now = datetime.datetime.now()
-    return render_to_response('current_datetime.html', {'current_date':now})
+    return render_to_response('CurDatePage.html', {'current_date':now})
 
 # use locals() so we don't need to build a map.
 # NOTE:  ALL locals are passed, so use with some care.
 def current_datetime(request):
     current_date = datetime.datetime.now()
     current_section = "Current Date"
-    return render_to_response('current_datetime.html', locals())
+    return render_to_response('CurDatePage.html', locals())
 
 def hours_ahead(request, offset):
     try:

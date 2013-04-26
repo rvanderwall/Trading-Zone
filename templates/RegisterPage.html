@@ -1,0 +1,10 @@
+{% extends "TraderBaseTemplate.html" %}
+
+{% block title %}Trading Zone - Registration{% endblock %}
+
+{% block content %}
+    <form action="" method="post">{% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Register">
+    </form>
+{% endblock %}
