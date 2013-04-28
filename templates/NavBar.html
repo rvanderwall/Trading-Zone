@@ -4,9 +4,6 @@
 
 <div class="navBar" xmlns="http://www.w3.org/1999/html">
     <div class="navBar-inner">
-        {% if user.is_authenticated %}
-            <p>Welcome, {{ user.username }}</p>
-        {% endif %}
         <ul class="nav">
             <li><a href="/home/">Home</a></li>
             <li><a href="/forSaleItems/">For Sale</a></li>
@@ -15,8 +12,14 @@
             {% if user.is_authenticated %}
                 <li><a href="/logout/">Log out</a></li>
             {% else %}
-                <li><a href="/registration/">Login/Register</a></li>
+                <li><a href="/login/">Login/Register</a></li>
             {% endif %}
         </ul>
+        {% if user.is_authenticated %}
+            <p>Welcome, {{ user.username }}</p>
+        {% endif %}
+        <a class="btn btn-small btn-info" href="#">
+            <i class="icon-info-sign"></i>Info
+        </a>
     </div>
 </div>

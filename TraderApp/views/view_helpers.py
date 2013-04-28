@@ -14,10 +14,13 @@ def requires_login(view):
     return new_view
 
 
-
+# Renders a page using the action_template and current_section defined in locals()
+# Renders through the Home page
 def render_action_template(request, p_locals):
     return render_template(request, 'TraderHomePage.html', p_locals)
 
+# Same as render_action_template except you specify the home page.
+# Good for registration and such where you want a clean page
 def render_template(request, template_name, p_locals):
     current_date = datetime.datetime.now()
     user = request.user

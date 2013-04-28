@@ -20,8 +20,9 @@ urlpatterns = patterns('',
     )
 
 urlpatterns += patterns('',
+    (r'^tz/$', views.home),
     (r'^home/$', views.home),
-    (r'^registration/$', registration_views.register),
+    (r'^register/$', registration_views.register),
     (r'^login/$', registration_views.login),
     (r'^logout/$', registration_views.logout),
     (r'^forSaleItems/$', views.items_for_sale),
