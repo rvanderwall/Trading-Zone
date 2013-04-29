@@ -7,20 +7,20 @@
     {% get_static_prefix as STATIC_PREFIX %}
 
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}css/normalize.css">
-    <link rel="stylesheet" href="{{  STATIC_PREFIX }}css/bootstrap.css">
+    <link rel="stylesheet" href="{{  STATIC_PREFIX }}css/bootstrap.orig.css">
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}css/font-awesome.min.css">
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}css/style.css">
 </head>
 <body>
 
-{%  include "NavBar.html" %}
+{%  include "NavBar.htm" %}
 <h2>Welcome to the Trading Zone.</h2>
 
 {% block content %}{% endblock %}
 
 {% block footer %}
     <hr>
-    <p>Thanks for visiting.</p>
+    <p>Thanks for visiting Caracal.</p>
     <a href="/seed/">Seed Data</a>
     <a href="/admin/">Administration</a>
 {% endblock %}

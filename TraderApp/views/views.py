@@ -14,7 +14,7 @@ def home(request):
     seller_list = get_sellers(None)
 
     current_section = "Home"
-    action_template = "Sellers_actions/Sellers.html"
+    action_template = "Sellers_actions/Sellers.htm"
     return render_action_template(request, locals())
 
 
@@ -31,14 +31,14 @@ def items_for_sale(request):
         items_for_sale = get_items_for_sale(None)
 
     current_section = "Show Items For Sale"
-    action_template = "ForSale_actions/ForSaleItems.html"
+    action_template = "ForSale_actions/ForSaleItems.htm"
     return render_action_template(request, locals())
 
 def itemDetails(request, item_id):
     item = get_item_details(item_id)
 
     current_section = "Show Item details"
-    action_template = "ForSale_actions/ItemDetails.html"
+    action_template = "ForSale_actions/ItemDetails.htm"
     return render_action_template(request, locals())
 
 def sellAnItem(request):
@@ -56,7 +56,7 @@ def sellAnItem(request):
         form = ItemForSaleForm()
 
     current_section = "Sell an Item"
-    action_template = "ForSale_actions/AddForSaleItem.html"
+    action_template = "ForSale_actions/AddForSaleItem.htm"
     return render_action_template(request, locals())
 
 
@@ -76,6 +76,6 @@ def hunt_list(request):
             form = HuntItemForm()
 
     current_section = "Add a search request"
-    action_template = "HuntList_actions/HuntList.html"
+    action_template = "HuntList_actions/HuntList.htm"
     return render_action_template(request, locals())
 

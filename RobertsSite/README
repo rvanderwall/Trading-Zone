@@ -1,3 +1,8 @@
+STANDARDS:
+    XXXPage.html    renderable page, derived from base template
+    xxx.htm         content template, content intended to be inserted into a page
+
+
 PACKAGES:
     mysql (run mysql_install_db)
     PyMySQL
