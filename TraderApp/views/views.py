@@ -49,7 +49,7 @@ def sellAnItem(request):
         form=ItemForSaleForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            add_item_for_sale(cd['title'], cd['description'], cd['price'], 2)
+            email_count = add_item_for_sale(cd['title'], cd['description'], cd['price'], 2)
             created=True
             form = ItemForSaleForm()
     else:

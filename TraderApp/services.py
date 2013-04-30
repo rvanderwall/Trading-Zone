@@ -2,7 +2,7 @@ __author__ = 'robertv'
 
 import datetime
 from models import HuntEntry, ItemForSale, Seller
-from listing_processor import get_emails_to_notify
+from listing_processor import add_a_listing
 
 #
 # CRUD for ItemForSale objects
@@ -17,16 +17,9 @@ def get_item_details(item_id):
     return ItemForSale.objects.get(id=item_id)
 
 def add_item_for_sale(title, description, cost, seller_id):
-    seller = Seller.objects.get(id=seller_id)
-    item = ItemForSale(title=title,
-                       description=description,
-                       price = cost,
-                       listing_date = datetime.datetime.now(),
-                       seller = seller)
-    item.save()
-    list_of_emails = get_emails_to_notify(item.description)
-    for email in list_of_emails:
-        print "Saved item " + item.title + " notified " + email
+    count = add_a_listing(title, description, cost, seller_id)
+    return count
+
 
 #
 # CRUD for HuntEntry

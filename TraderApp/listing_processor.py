@@ -1,7 +1,7 @@
 __author__ = 'robertv'
 
 import nltk, datetime
-from models import ItemForSale, HuntEntry
+from models import ItemForSale, HuntEntry, Seller
 
 def extract_nouns( sentence):
 
@@ -14,25 +14,24 @@ def extract_nouns( sentence):
 
     return nouns
 
-def add_a_listing(listingTitle, listingDescription, listingPrice):
-    item = ItemForSale(title = listingTitle,
-                       description = listingDescription,
+def add_a_listing(listingTitle, listingDescription, listingPrice, seller_id):
+    seller = Seller.objects.get(id=seller_id)
+    item = ItemForSale(title=listingTitle,
+                       description=listingDescription,
                        price = listingPrice,
-                       listing_date = datetime.datetime.now())
+                       listing_date = datetime.datetime.now(),
+                       seller = seller)
+    item.save()
 
-    nouns = extract_nouns(item.title)
+    nouns = extract_nouns(item.title + item.description)
+    count = 0
+    emails = {}
     for noun in nouns:
         notices = HuntEntry.objects.filter(search_text__icontains=noun)
         for notice in notices:
             email = notice.email
-            print "Sent email notification to " + email
-
-def get_emails_to_notify(description):
-    words = description.split()
-    emails = []
-    for word in words:
-    #        nn = NoticeRequest.objects.filter(search_text__icontains=word)
-        nn = HuntEntry.objects.filter(search_text__icontains=word)
-        for n in nn:
-            emails.append(n.email)
-    return emails
+            if not emails.has_key(email):
+                emails[email] = listingDescription
+            print "Saved item " + item.title + " notified " + email
+            count += 1
+    return count
