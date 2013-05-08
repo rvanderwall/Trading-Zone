@@ -1,0 +1,28 @@
+{# This content template should be included where you want to see the list of sellers. #}
+{# REQUIRES:    seller_list : list of Seller #}
+
+<div class="row">
+
+<div class="span4">
+    {% for seller in seller_list %}
+
+        {% if forloop.first %}
+            <table>
+            <tr><thead>Sellers</thead></tr>
+            <tr><th>ID</th><th>Name</th><th>Web Site</th></tr>
+        {% endif %}
+        <tr><td>{{ seller.id }}</td><td>{{ seller.name }}</td><td>{{ seller.website }}</td></tr>
+        {% if forloop.last %}
+            </table>
+        {% endif %}
+
+    {% endfor %}
+</div>
+<div class="span4 offset1">
+    <img src="{{  STATIC_PREFIX }}img/Carocal.png" height="140">
+    <p>The caracal is a stealth hunter always on the lookout for prey.  That's what you get
+    with Trader Zone, a bargain hunter that's always looking out for the best buys for you.
+    </p>
+</div>
+
+</div>

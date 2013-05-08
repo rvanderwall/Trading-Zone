@@ -1,0 +1,29 @@
+{# This content template shows the form to add an item for sale #}
+{# REQUIRED : form #}
+{# OPTIONAL : created - boolean #}
+{# OPTIONAL : email_count - int #}
+
+{% if created %}
+<p>Congratulations!  You've posted an item for sale!</p>
+{% if email_count %}
+    {% if email_count == 0 %}
+        <p> There are {{ email_count }} hunters looking for an item like yours.
+         You may want to try adding more information to your description.</p>
+    {% elif email_count == 1 %}
+        <p> There is {{ email_count }} hunter
+    {% else %}
+        <p> There are {{ email_count }} hunters
+    {% endif %}
+    looking for an item like yours and they've been informed that you've posted an item they may like.</p>
+{% endif %}
+<p>Add another one, or go back to the <a href="/forSaleItems/">Listings</a> page.</p>
+{% else %}
+    <p>To add an item for sale</p>
+{% endif %}
+
+<form action="" method="post">{% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <input type="submit" value="Add">
+</form>
