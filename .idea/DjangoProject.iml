@@ -10,7 +10,7 @@
     </facet>
     <facet type="google-appengine-python" name="Google App Engine (Python)">
       <configuration>
-        <option name="rootFolder" value="" />
+        <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="sdkFolder" value="/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine" />
         <option name="templatesFolder" value="" />
         <option name="email" value="rvanderwall23@gmail.com" />
