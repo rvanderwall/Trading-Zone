@@ -1,10 +1,19 @@
 # Django settings for RobertsSite project.
 
-DEBUG = False
-TZ_HOME = "/Users/robertv/PycharmProjects/DjangoProject/"
+PRODUCTION = False
+
+if PRODUCTION:
+    DEBUG = False
+    TZ_HOME = "/home/ubuntu/Trading-Zone/"
+    TZ_STATIC_ROOT = "/var/www/static/"
+else:
+    DEBUG = True
+    TZ_HOME = "/Users/robertv/PycharmProjects/DjangoProject/"
+    TZ_STATIC_ROOT = TZ_HOME + "/static/"
+
 TZ_DB_NAME = TZ_HOME + 'SiteData.db'
-TZ_STATIC_FILES_DIR = TZ_HOME + "TraderApp/static"
-TZ_STATIC_ROOT = TZ_HOME + "static"
+TZ_STATIC_FILES_DIR = TZ_HOME + "static/"
+TZ_STATIC_ROOT = "/var/www/static/"
 
 TEMPLATE_DEBUG = DEBUG
 
