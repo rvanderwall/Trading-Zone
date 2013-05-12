@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 class ItemForSaleForm(forms.Form):
     title = forms.CharField()
     description = forms.CharField(widget=forms.Textarea, max_length=2000)
-    price = forms.DecimalField(max_digits=10, decimal_places=2)
+    price = forms.DecimalField(max_digits=10, decimal_places=2, min_value=0)
 
 class HuntItemForm(forms.Form):
     title = forms.CharField(max_length=50)

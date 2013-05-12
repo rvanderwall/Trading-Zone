@@ -21,8 +21,9 @@
 {% block footer %}
     <hr>
     <p>Thanks for visiting Caracal.</p>
-    <a href="/seed/">Seed Data</a>
-    <a href="/admin/">Administration</a>
+    {% if DEBUG %}
+        <a href="/admin/">Administration</a>
+    {% endif %}
 {% endblock %}
 </body>
 </html>

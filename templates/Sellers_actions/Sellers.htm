@@ -5,15 +5,15 @@
 
 <div class="span4">
     {% for seller in seller_list %}
-
         {% if forloop.first %}
             <table>
-            <tr><thead>Sellers</thead></tr>
-            <tr><th>ID</th><th>Name</th><th>Web Site</th></tr>
+            <tr><thead>Users and Sellers</thead></tr>
+            <tr><th>ID</th><th>Name</th><th>email</th></tr>
         {% endif %}
-        <tr><td>{{ seller.id }}</td><td>{{ seller.name }}</td><td>{{ seller.website }}</td></tr>
+        <tr><td>{{ seller.id }}</td><td>{{ seller.name }}</td><td>{{ seller.email }}</td></tr>
         {% if forloop.last %}
             </table>
+            <p>This info is for demo purposes only! It won't be on the live site</p>
         {% endif %}
 
     {% endfor %}

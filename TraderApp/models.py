@@ -1,6 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class Seller(models.Model):
+    user = models.ForeignKey(User)
     name = models.CharField(max_length=30)
     address = models.CharField(max_length=100)
     city = models.CharField(max_length=50)
@@ -9,7 +11,6 @@ class Seller(models.Model):
     website = models.URLField(blank=True)
     email = models.EmailField()
     creation_date = models.DateField(blank=True, null=True)
-
     def __unicode__(self):
         return self.name
 

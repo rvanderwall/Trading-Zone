@@ -16,9 +16,9 @@
             {% endif %}
         </ul>
         {% if user.is_authenticated %}
-            <p>Welcome, {{ user.username }}</p>
+            <p class="nav-user">Welcome, {{ user.username }}</p>
         {% endif %}
-        <a class="btn btn-small btn-info" href="#">
+        <a class="btn btn-small btn-info" href="/about/">
             <i class="icon-info-sign"></i>Info
         </a>
     </div>

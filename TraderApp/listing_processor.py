@@ -14,8 +14,7 @@ def extract_nouns( sentence):
 
     return nouns
 
-def add_a_listing(listingTitle, listingDescription, listingPrice, seller_id):
-    seller = Seller.objects.get(id=seller_id)
+def add_a_listing(listingTitle, listingDescription, listingPrice, seller):
     item = ItemForSale(title=listingTitle,
                        description=listingDescription,
                        price = listingPrice,

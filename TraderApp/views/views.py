@@ -1,14 +1,11 @@
 # Create your views here.
-from django.http import HttpResponseRedirect, HttpResponse
-from django.shortcuts import render_to_response
+from django.http import HttpResponse
 
-from TraderApp.SeedData import SeedSellers
 from TraderApp.services import get_items_for_sale, add_item_for_sale, get_item_details
-from TraderApp.services import get_sellers
+from TraderApp.services import get_sellers, get_contact_info
 from TraderApp.services import get_hunt_list, add_hunt_entry
 from TraderApp.forms import ItemForSaleForm, HuntItemForm
 from TraderApp.views.view_helpers import render_action_template
-
 
 def home(request):
     seller_list = get_sellers(None)
@@ -17,10 +14,10 @@ def home(request):
     action_template = "Sellers_actions/Sellers.htm"
     return render_action_template(request, locals())
 
-
-def seed(request):
-    SeedSellers()
-    return render_to_response('SeedPage.html', locals())
+def about(request):
+    current_section = "About"
+    action_template = "General/About.htm"
+    return render_action_template(request, locals())
 
 
 
@@ -36,6 +33,7 @@ def items_for_sale(request):
 
 def itemDetails(request, item_id):
     item = get_item_details(item_id)
+    email, subject, body = get_contact_info(item)
 
     current_section = "Show Item details"
     action_template = "ForSale_actions/ItemDetails.htm"
@@ -49,7 +47,7 @@ def sellAnItem(request):
         form=ItemForSaleForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            email_count = add_item_for_sale(cd['title'], cd['description'], cd['price'], 2)
+            email_count = add_item_for_sale(cd['title'], cd['description'], cd['price'], request.user)
             created=True
             form = ItemForSaleForm()
     else:

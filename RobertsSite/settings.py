@@ -9,11 +9,10 @@ if PRODUCTION:
 else:
     DEBUG = True
     TZ_HOME = "/Users/robertv/PycharmProjects/DjangoProject/"
-    TZ_STATIC_ROOT = TZ_HOME + "/static/"
+    TZ_STATIC_ROOT = "/Users/robertv/static/"
 
 TZ_DB_NAME = TZ_HOME + 'SiteData.db'
 TZ_STATIC_FILES_DIR = TZ_HOME + "static/"
-TZ_STATIC_ROOT = "/var/www/static/"
 
 TEMPLATE_DEBUG = DEBUG
 

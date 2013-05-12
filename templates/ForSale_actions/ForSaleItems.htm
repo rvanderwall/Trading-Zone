@@ -14,16 +14,29 @@
     Items for sale as of {{ current_date }}
 </h4>
 {% for item in items_for_sale %}
+  {% if forloop.first %}
+    <table class="forSaleTable">
+  {% endif %}
+    <tr>
+      <td>
+        <span>
+        <a class="forSaleDescription" href="/itemDetails/{{ item.id }}">
+            {{ item.title }}
+        </a>
+        </span>
+      </td>
+      <td>
+        <span class="forSaleDate">{{ item.listing_date }}</span>
+      </td>
+      <td>
+        <span class="forSaleCurrency">$</span>
+        <span class="forSalePrice">{{ item.price }}</span>
+      </td>
+    </tr>
 
-<p>
-<span>
-<a href="/itemDetails/{{ item.id }}">
-    {{ item.title }}
-</a>
-</span>
-<span>{{ item.price }}</span>
-<span>{{ item.listing_date }}</span>
-</p>
+  {% if forloop.last %}
+    </table>
+  {% endif %}
 
 {% empty %}
     <p>No items match your search terms.</p>

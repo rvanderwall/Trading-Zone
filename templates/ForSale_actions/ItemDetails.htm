@@ -1,5 +1,8 @@
 {# This content template should be included where you want to see the list of items for sale #}
 {# REQUIRED: item : an ItemForSale#}
+{# REQUIRED: email : contact email#}
+{# REQUIRED: body : body of email#}
+{# REQUIRED: subject : subject for email#}
 
 <h4>
     {{ item.title }}
@@ -13,5 +16,10 @@
     </p>
     <p>
     Description:    <span>{{ item.description }}</span>
+    </p>
+    <p>
+    Seller:    <span><a href="mailto:{{ email }}?subject={{ subject }}&body={{ body }}">
+                {{ item.seller.name }}</a>
+               </span>
     </p>
 </p>

@@ -856,3 +856,15 @@ a.label:hover,a.label:focus,a.badge:hover,a.badge:focus{color:#ffffff;text-decor
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
+
+originalBackgroup{background-color:#d4b76e;}
+table.forSaleTable{background-color:#BFB549; table-layout: fixed;border: 1px solid black;}
+tr{border: 1px solid black;}
+td{padding:10px;}
+span.forSaleCurrency{color:#222288; text-align: right;};
+span.forSalePrice{color:#222288; text-align: left;}
+span.forSaleDate{color:#222288}
+a.forSaleDescription{color:#ffffff;text-decoration:underline;background-color:#BFB549;}
+a.forSaleDescription:visited{color:#261208;text-decoration:underline;background-color:#BFB549;}
+.newUser{font-weight: bold;}
+.nav-user{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:20px;line-height:20px;color:#c8aaaa}

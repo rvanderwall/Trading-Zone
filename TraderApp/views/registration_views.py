@@ -5,7 +5,7 @@ from django.contrib import auth
 
 from TraderApp.forms import RegistrationForm, LoginForm
 from TraderApp.views.view_helpers import render_template, render_action_template
-
+from TraderApp.services import create_seller, get_sellers
 
 #https://github.com/yourcelf/django-registration-defaults
 
@@ -34,7 +34,8 @@ def register(request):
         form = RegistrationForm(request.POST)
         if form.is_valid():
             new_user = form.save()
-            current_section = "Show Item details"
+            create_seller(new_user)
+            current_section = "Registration Complete"
             action_template = "Auth_Auth/RegistrationThankYou.htm"
             return render_action_template(request, locals())
     else:

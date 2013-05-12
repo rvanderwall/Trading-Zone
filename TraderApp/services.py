@@ -14,10 +14,19 @@ def get_items_for_sale(filter):
         return ItemForSale.objects.filter(description__icontains=filter)
 
 def get_item_details(item_id):
-    return ItemForSale.objects.get(id=item_id)
+    item = ItemForSale.objects.get(id=item_id)
+    return item
 
-def add_item_for_sale(title, description, cost, seller_id):
-    count = add_a_listing(title, description, cost, seller_id)
+def get_contact_info(item):
+    email = item.seller.email
+    name = item.seller.name
+    subject = "Hello, " + name + ". I'm interested in the item you have for sale."
+    body = subject + "\nPlease let me know if it's still available.\nThanks"
+    return email, subject, body
+
+def add_item_for_sale(title, description, cost, user):
+    seller = get_seller_for_user(user)
+    count = add_a_listing(title, description, cost, seller)
     return count
 
 
@@ -46,3 +55,17 @@ def get_sellers(filter):
         return Seller.objects.filter(active = True)
     else:
         return Seller.objects.filter(active = True,name__icontains=filter)
+
+def get_seller_for_user(user):
+    return Seller.objects.get(user=user)
+
+def create_seller(user):
+    s1 = Seller(user=user,
+            name=user.username,
+            address="No Address provided",
+            city="No City provided",
+            state="No State provided",
+            email=user.email,
+            creation_date=datetime.datetime.now(),
+            active=True)
+    s1.save()
