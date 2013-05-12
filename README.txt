@@ -1,64 +1,8 @@
+Caracal is a new For Sale site.  It's claim to fame is the match engine, called the caracal after
+the cool lynx like cat.
 
-sudo apt-get update
+The search engine examines all incoming for-sales posts, matches against stored search criteria and
+issues emails to buyers who may have an interest in the item just posted.
 
-
-=============    NOT NEEDED ========================
-#uncomment all of the Multiverse lines to the /etc/apt/sources.list file
-
-sudo apt-get install ec2-api-tools
-
-# generate a certificate here: https://portal.aws.amazon.com/gp/aws/securityCredentials#access_credentials
-
-export EC2_PRIVATE_KEY=pk-VFQVMG5C4RVMRRROQBGUB4OUE2JU4IIX.pem
-export EC2_CERT=cert-VFQVMG5C4RVMRRROQBGUB4OUE2JU4IIX.pem
-ec2-authorize default -P icmp -t -1:-1 -s 0.0.0.0/0
-# Open port 8000 on the security group
-===================================================
-
-On Security Groups -> Inbound -> Create rule for ICMP
-
-
-
-#Install and config git
-
-> sudo apt-get install git
-> git config --global user.name "rvanderwall"
-> git config --global user.email "rvanderwall@yahoo.com"
-
-# set default so that all changes are always pushed to the repository
-git config --global push.default "matching"
-
-# set default so that you avoid unnecessary commits
-git config --global branch.autosetuprebase always 
-
-git config --global color.ui true
-git config --global color.status auto
-git config --global color.branch auto 
-
-git config --global core.editor vim 
-
-# Make sure all is configured by listing config params
-git config --list 
-
-git clone https://github.com/rvanderwall/Trading-Zone.git
-
-cd ~
-sudo apt-get install python-pip
-sudo pip install Django==1.5.1
-
-
-cd Trading-Zone
-
-turn off DEBUG in RobertsSite/settings.py
-
-#python manage.py runserver
-
-cd
-wget https://pypi.python.org/packages/2.6/f/flup/flup-1.0.2-py2.6.egg#md5=93ec6e3baeee3e5649a8456105178d4e
-sudo easy_install flup-1.0.2-py2.6.egg
-
-sudo pip install -U pyyaml nltk
-
-cd Trading-Zone
-./manage.py runfcgi
+It's built on Django, bootstrap, and NLTK
 
