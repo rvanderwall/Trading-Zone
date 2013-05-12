@@ -8,7 +8,8 @@ from django.contrib.auth.models import User
 class ItemForSaleForm(forms.Form):
     title = forms.CharField()
     description = forms.CharField(widget=forms.Textarea, max_length=2000)
-    price = forms.DecimalField(max_digits=10, decimal_places=2, min_value=0)
+    price = forms.DecimalField(max_digits=10, decimal_places=2, min_value=0,
+                               error_messages={'invalid' : ("Please enter a valid price, like 150.00.")})
 
 class HuntItemForm(forms.Form):
     title = forms.CharField(max_length=50)
