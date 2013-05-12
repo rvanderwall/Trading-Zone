@@ -1,10 +1,17 @@
+# ON AZ Console:
+On Security Groups -> Inbound -> Create rule for ICMP
+
 
 sudo apt-get update
 
 
-=============    NOT NEEDED ========================
 #uncomment all of the Multiverse lines to the /etc/apt/sources.list file
+# Add these line to the end of the file:
+deb http://archive.ubuntu.com/ubuntu/ precise main restricted multiverse
+deb-src http://archive.ubuntu.com/ubuntu precise main restricted multiverse
 
+
+=============    NOT NEEDED ========================
 sudo apt-get install ec2-api-tools
 
 # generate a certificate here: https://portal.aws.amazon.com/gp/aws/securityCredentials#access_credentials
@@ -15,7 +22,7 @@ ec2-authorize default -P icmp -t -1:-1 -s 0.0.0.0/0
 # Open port 8000 on the security group
 ===================================================
 
-On Security Groups -> Inbound -> Create rule for ICMP
+
 
 
 
@@ -42,23 +49,38 @@ git config --list
 
 git clone https://github.com/rvanderwall/Trading-Zone.git
 
-cd ~
-sudo apt-get install python-pip
-sudo pip install Django==1.5.1
+# Update
+cd Trading-Zone.git
+git reset
+git checkout -- *
+git pull
+git pull https://github.com/rvanderwall/Trading-Zone.git
 
 
-cd Trading-Zone
 
-turn off DEBUG in RobertsSite/settings.py
-
-#python manage.py runserver
-
+# Intall flup
 cd
 wget https://pypi.python.org/packages/2.6/f/flup/flup-1.0.2-py2.6.egg#md5=93ec6e3baeee3e5649a8456105178d4e
 sudo easy_install flup-1.0.2-py2.6.egg
 
-sudo pip install -U pyyaml nltk
+
+# Install apache
+sudo apt-get install apache
+
+#Start apache
+sudo /etc/init.d/apache2 start
+sudo /etc/init.d/apache2 stop
+sudo /etc/init.d/apache2 restart
+
+##sudo apt-get install libapache2-mod-python
+sudo apt-get install apache2-mpm-worker libapache2-mod-fastcgi
+
+# get mod_rewrite turned on
+sudo a2enmod rewrite
+sudo service apache2 restart
+
 
 cd Trading-Zone
-./manage.py runfcgi
+./manage.py runfcgi method=threaded host=127.0.0.1 port=3033
 
+^/(.*)
