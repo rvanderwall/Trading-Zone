@@ -1,9 +1,10 @@
 {# This content template shows the form to add an item for sale #}
 {# REQUIRED : new_user #}
 {# OPTIONAL : created - boolean #}
+{% load i18n %}
 
-<p>Thank you for registering.</p>
+<p>{% trans "Thank you for registering." %}</p>
 <ul>
-    <li>Your user name is <b>{{ new_user.username }}</b> </li>
-    <li>All hunt results will be sent to <b>{{ new_user.email }}</b></li>
+    <li>{% trans "Your user name is " %}<b>{{ new_user.username }}</b> </li>
+    <li>{% trans "All hunt results will be sent to " %}<b>{{ new_user.email }}</b></li>
 </ul>

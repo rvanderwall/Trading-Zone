@@ -1,10 +1,24 @@
-{% extends "TraderBaseTemplate.html" %}
+{# Shows the registration page for the Trading Zone general site. #}
+{# REQUIRED : form of type RegistrationForm #}
+{# REQUIRED : csrf_token #}
 
-{% block title %}Trading Zone - Registration{% endblock %}
+{% extends "TradingZoneBaseTemplate.html" %}
+{% load i18n %}
+
+{% block title %}{% blocktrans %}Trading Zone - Registration{% endblocktrans %}
+{% endblock %}
+
+{% block header %}
+    {% trans "Welcome to the Trading Zone." %}
+{% endblock %}
 
 {% block content %}
     <form action="" method="post">{% csrf_token %}
       {{ form.as_p }}
       <input type="submit" value="Register">
     </form>
+{% endblock %}
+
+{% block footer %}
+    <p>{% trans "Thanks for visiting Caracal." %}</p>
 {% endblock %}

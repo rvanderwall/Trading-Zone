@@ -1,25 +1,26 @@
 {# This template should be included in the Home template to get the NavBar #}
 {# REQUIRED: user #}
 
+{% load i18n %}
 
 <div class="navBar" xmlns="http://www.w3.org/1999/html">
     <div class="navBar-inner">
         <ul class="nav">
-            <li><a href="/home/">Home</a></li>
-            <li><a href="/forSaleItems/">For Sale</a></li>
+            <li><a href="/home/">{% trans "Home" %}</a></li>
+            <li><a href="/forSaleItems/">{% trans "For Sale" %}</a></li>
             {% if user.is_authenticated %}
-                <li><a href="/searchNotifications/">Notifications</a></li>
-                <li><a href="/sellAnItem/">Sell Item</a></li>
-                <li><a href="/logout/">Log out</a></li>
+                <li><a href="/searchNotifications/">{% trans "Notifications" %}</a></li>
+                <li><a href="/sellAnItem/">{% trans "Sell Item" %}</a></li>
+                <li><a href="/logout/">{% trans "Log out" %}</a></li>
             {% else %}
-                <li><a href="/login/">Login/Register</a></li>
+                <li><a href="/login/">{% trans "Login/Register" %}</a></li>
             {% endif %}
         </ul>
         {% if user.is_authenticated %}
-            <p class="nav-user">Welcome, {{ user.username }}</p>
+            <p class="nav-user">{% trans "Welcome" %}, {{ user.username }}</p>
         {% endif %}
         <a class="btn btn-small btn-info" href="/about/">
-            <i class="icon-info-sign"></i>Info
+            <i class="icon-info-sign"></i>{% trans "Info" %}
         </a>
     </div>
 </div>

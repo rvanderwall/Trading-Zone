@@ -1,21 +1,22 @@
 # Create your views here.
 from django.http import HttpResponse
 
-from TraderApp.services import get_items_for_sale, add_item_for_sale, get_item_details
-from TraderApp.services import get_sellers, get_contact_info
-from TraderApp.services import get_hunt_list, add_hunt_entry
-from TraderApp.forms import ItemForSaleForm, HuntItemForm
-from TraderApp.views.view_helpers import render_action_template
+from CaracalApp.services import get_items_for_sale, add_item_for_sale, get_item_details
+from CaracalApp.services import get_sellers, get_contact_info
+from CaracalApp.services import get_hunt_list, add_hunt_entry
+from CaracalApp.forms import ItemForSaleForm, HuntItemForm
+from CaracalApp.views.view_helpers import render_action_template, render_template
+
+from CaracalApp.message_strings import section_about, section_show_items, section_show_details
+from CaracalApp.message_strings import section_sell_item, section_add_hunt, invalid_not_logged_in
 
 def home(request):
     seller_list = get_sellers(None)
-
-    current_section = "Home"
-    action_template = "Sellers_actions/Sellers.htm"
+    action_template = "General/HomePage.htm"
     return render_action_template(request, locals())
 
 def about(request):
-    current_section = "About"
+    debug_text = " Language:" + request.LANGUAGE_CODE + ":"
     action_template = "General/About.htm"
     return render_action_template(request, locals())
 
@@ -27,21 +28,24 @@ def items_for_sale(request):
     else:
         items_for_sale = get_items_for_sale(None)
 
-    current_section = "Show Items For Sale"
+    current_section = section_show_items
     action_template = "ForSale_actions/ForSaleItems.htm"
     return render_action_template(request, locals())
 
 def itemDetails(request, item_id):
     item = get_item_details(item_id)
-    email, subject, body = get_contact_info(item)
+    if item != None:
+        email, subject, body = get_contact_info(item)
 
-    current_section = "Show Item details"
-    action_template = "ForSale_actions/ItemDetails.htm"
-    return render_action_template(request, locals())
+        current_section = section_show_details
+        action_template = "ForSale_actions/ItemDetails.htm"
+        return render_action_template(request, locals())
+    else:
+        return render_template(request, "ItemNotFound.html", locals())
 
 def sellAnItem(request):
     if request.user.is_anonymous():
-        return HttpResponse("You are not logged in")
+        return HttpResponse(invalid_not_logged_in)
 
     if request.method == 'POST':
         form=ItemForSaleForm(request.POST)
@@ -53,7 +57,7 @@ def sellAnItem(request):
     else:
         form = ItemForSaleForm()
 
-    current_section = "Sell an Item"
+    current_section = section_sell_item
     action_template = "ForSale_actions/AddForSaleItem.htm"
     return render_action_template(request, locals())
 
@@ -73,7 +77,7 @@ def hunt_list(request):
             add_hunt_entry(cd['title'], cd['search_text'], cd['email'])
             form = HuntItemForm()
 
-    current_section = "Add a search request"
+    current_section = section_add_hunt
     action_template = "HuntList_actions/HuntList.htm"
     return render_action_template(request, locals())
 

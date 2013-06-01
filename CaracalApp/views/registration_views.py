@@ -3,9 +3,10 @@ __author__ = 'robertv'
 from django.http import HttpResponseRedirect
 from django.contrib import auth
 
-from TraderApp.forms import RegistrationForm, LoginForm
-from TraderApp.views.view_helpers import render_template, render_action_template
-from TraderApp.services import create_seller, get_sellers
+from CaracalApp.forms import RegistrationForm, LoginForm
+from CaracalApp.views.view_helpers import render_template, render_action_template
+from CaracalApp.services import create_seller
+from CaracalApp.message_strings import section_registration_compete
 
 #https://github.com/yourcelf/django-registration-defaults
 
@@ -35,7 +36,7 @@ def register(request):
         if form.is_valid():
             new_user = form.save()
             create_seller(new_user)
-            current_section = "Registration Complete"
+            current_section = section_registration_compete
             action_template = "Auth_Auth/RegistrationThankYou.htm"
             return render_action_template(request, locals())
     else:

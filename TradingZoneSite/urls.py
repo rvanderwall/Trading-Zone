@@ -5,15 +5,15 @@ from SimpleApp.views import hello, current_datetime, hours_ahead
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-from TraderApp.views import views,registration_views, view_helpers
+from CaracalApp.views import views, registration_views, view_helpers
 
 
 admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'RobertsSite.views.home', name='home'),
-    # url(r'^RobertsSite/', include('RobertsSite.foo.urls')),
+    # url(r'^$', 'TradingZoneSite.views.home', name='home'),
+    # url(r'^TradingZoneSite/', include('TradingZoneSite.foo.urls')),
     (r'^hello/$', hello),
     (r'^time/$', current_datetime),
     (r'^time/plus/(\d{1,2})/$', hours_ahead),

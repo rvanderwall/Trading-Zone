@@ -1,0 +1,28 @@
+{% extends "TradingZoneBaseTemplate.html" %}
+
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+
+{% block title %}
+    {% blocktrans %}Trading Zone{% endblocktrans %}
+{% endblock %}
+
+{% block header %}
+    {% trans "Welcome to the Trading Zone." %}
+    {%  if DEBUG %}
+        - {{ debug_text }}
+    {% endif  %}
+{% endblock %}
+
+{% block content %}
+    {% include action_template %}
+{% endblock %}
+
+{% block footer %}
+    <p>{% trans "Thanks for visiting Caracal." %}</p>
+    {% if DEBUG %}
+        <a href="/admin/">Administration</a>
+    {% endif %}
+{% endblock %}

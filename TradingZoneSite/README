@@ -1,0 +1,58 @@
+STANDARDS:
+    XXXPage.html    renderable page, derived from base template
+    xxx.htm         content template, content intended to be inserted into a page
+
+
+PACKAGES:
+    mysql (run mysql_install_db)
+    PyMySQL
+
+Starting mysql:
+    bin/mysqld_safe &
+
+MySql console:
+    firefox -> Tools -> Sqlite manager
+
+START-UP
+    Creating a project from command line:
+        django-admin.py startproject mysite
+
+    Running from the command line:
+        python manage.py runserver
+
+MODEL UPDATES
+    Validate Models:
+        python manage.py validate
+
+    Create SQL commands to generate tables:
+        python manage.py sqlall CaracalApp
+
+    Create SQL commands to ONLY generate schema:
+        python manage.py sql CaracalApp   ## copy output
+        python manage.py dbshell          ## paste sql commands
+            .exit                         ## terminates session
+
+    To Actually Create the SQL tables:
+        python manage.py syncdb
+
+    To generate SQL that will drop all databases:
+        python manage.py sqlclear CaracalApp
+
+    To save, update schema, and reload:
+        python manage.py dumpdata CaracalApp > temp_data.json
+        python manage.py sqlclear CaracalApp > sqlDrop.sql
+        python manage.py dbshell  ## run the sql drop commands
+        python manage.py syncdb
+        python manage.py loaddata temp_data.json
+
+    Migration tool:
+        http://south.aeracode.org/
+
+TRANSLATIONS
+    django-admin.py makemessages -l es -e html,htm,py   ## generate files for spanish (es)
+    vi files and add translated text
+    django-admin.py compilemessages
+
+
+ADMIN:
+    robertv/password

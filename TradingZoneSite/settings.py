@@ -1,4 +1,5 @@
 # Django settings for RobertsSite project.
+import os
 
 PRODUCTION = False
 
@@ -12,7 +13,7 @@ else:
     TZ_STATIC_ROOT = "/Users/robertv/static/"
 
 TZ_DB_NAME = TZ_HOME + 'SiteData.db'
-TZ_STATIC_FILES_DIR = TZ_HOME + "static/"
+TZ_STATIC_FILES_DIR = os.path.join(TZ_HOME, "static/")
 
 TEMPLATE_DEBUG = DEBUG
 
@@ -62,6 +63,10 @@ USE_L10N = True
 # If you set this to False, Django will not use timezone-aware datetimes.
 USE_TZ = True
 
+LOCALE_PATHS = (
+    os.path.join(TZ_HOME, 'locale'),
+)
+
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
 MEDIA_ROOT = ''
@@ -108,8 +113,9 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -117,12 +123,11 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'RobertsSite.urls'
+ROOT_URLCONF = 'TradingZoneSite.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'RobertsSite.wsgi.application'
+WSGI_APPLICATION = 'TradingZoneSite.wsgi.application'
 
-import os
 TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),)
 
 INSTALLED_APPS = (
@@ -136,7 +141,7 @@ INSTALLED_APPS = (
      'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'TraderApp',
+    'CaracalApp',
     'SimpleApp',
 )
 

@@ -1,9 +1,0 @@
-application: smartcaracal
-version: 1
-threadsafe: no
-runtime: python27
-api_version: 1
-
-handlers:
-- url: /.*
-  script: smartcaracal/main.py

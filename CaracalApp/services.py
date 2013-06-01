@@ -3,6 +3,7 @@ __author__ = 'robertv'
 import datetime
 from models import HuntEntry, ItemForSale, Seller
 from listing_processor import add_a_listing
+from message_strings import mail_subject, mail_body, default_address, default_city, default_state
 
 #
 # CRUD for ItemForSale objects
@@ -18,10 +19,11 @@ def get_item_details(item_id):
     return item
 
 def get_contact_info(item):
-    email = item.seller.email
-    name = item.seller.name
-    subject = "Hello, " + name + ". I'm interested in the item you have for sale."
-    body = subject + "\nPlease let me know if it's still available.\nThanks"
+    seller = item.seller
+    email = seller.email
+    name = seller.name
+    subject = mail_subject % {'name': name}
+    body = mail_body % {'intro':subject}
     return email, subject, body
 
 def add_item_for_sale(title, description, cost, user):
@@ -62,9 +64,9 @@ def get_seller_for_user(user):
 def create_seller(user):
     s1 = Seller(user=user,
             name=user.username,
-            address="No Address provided",
-            city="No City provided",
-            state="No State provided",
+            address= default_address,
+            city= default_city,
+            state= default_state,
             email=user.email,
             creation_date=datetime.datetime.now(),
             active=True)

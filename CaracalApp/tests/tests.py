@@ -7,7 +7,7 @@ Replace this with more appropriate tests for your application.
 
 from django.test import TestCase
 #import unittest
-from TraderApp.listing_processor import extract_nouns
+from CaracalApp.listing_processor import extract_nouns
 
 class SimpleTest(TestCase):
 

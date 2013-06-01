@@ -2,9 +2,10 @@
 {# REQUIRED : form #}
 {# OPTIONAL : created - boolean #}
 {# OPTIONAL : email_count - int #}
+{% load i18n %}
 
 {% if created %}
-<p>Congratulations!  You've posted an item for sale!</p>
+<p>{% trans "Congratulations!  You've posted an item for sale!" %}</p>
 {% if email_count %}
     {% if email_count == 0 %}
         <p> There are {{ email_count }} hunters looking for an item like yours.

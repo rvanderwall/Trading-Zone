@@ -1,7 +1,7 @@
 <!DOCTYPE html public>
 <html>
 <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}EMPTY TITLE{% endblock %}</title>
 
     {% load static %}
     {% get_static_prefix as STATIC_PREFIX %}
@@ -14,16 +14,22 @@
 <body>
 
 {%  include "NavBar.htm" %}
-<h2>Welcome to the Trading Zone.</h2>
 
-{% block content %}{% endblock %}
-
-{% block footer %}
-    <hr>
-    <p>Thanks for visiting Caracal.</p>
-    {% if DEBUG %}
-        <a href="/admin/">Administration</a>
-    {% endif %}
+<h2>
+{% block header %}
+    EMPTY HEADER
 {% endblock %}
+</h2>
+
+{% block content %}
+    <p>EMPTY CONTENT</p>
+{% endblock %}
+
+<hr>
+{% block footer %}
+    EMPTY FOOTER
+{% endblock %}
+
+
 </body>
 </html>

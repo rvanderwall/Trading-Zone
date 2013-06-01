@@ -1,10 +1,12 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.translation import ugettext_lazy as _
+from message_strings import help_name, help_address
 
 class Seller(models.Model):
     user = models.ForeignKey(User)
-    name = models.CharField(max_length=30)
-    address = models.CharField(max_length=100)
+    name = models.CharField(max_length=30, help_text= help_name)
+    address = models.CharField(max_length=100, help_text= help_address)
     city = models.CharField(max_length=50)
     state = models.CharField(max_length=50, blank=True)
     active = models.BooleanField()
@@ -15,6 +17,8 @@ class Seller(models.Model):
         return self.name
 
     class Meta:
+        verbose_name = _('seller')
+        verbose_name_plural = _('sellers')
         ordering = ['name']
 
 

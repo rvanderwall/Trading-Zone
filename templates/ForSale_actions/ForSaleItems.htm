@@ -1,17 +1,18 @@
 {# This content template should be included where you want to see the list of items for sale #}
 {# REQUIRED: items_for_sale : List of ItemForSale#}
 {# OPTIONAL : error - if search returns nothing #}
+{% load i18n %}
 
 {% if error %}
-  <p style="color:red;">Please enter search term.</p>
+  <p style="color:red;">{% trans "Please enter search term." %}</p>
 {% endif %}
 
 <form action="" method="GET">
     <input type="text" name="filter">
-    <input type="submit" value="Search">
+    <input type="submit" value={% trans "Search" %}>
 </form>
 <h4>
-    Items for sale as of {{ current_date }}
+    {% trans "Items for sale as of " %}{{ current_date }}
 </h4>
 {% for item in items_for_sale %}
   {% if forloop.first %}
@@ -39,6 +40,6 @@
   {% endif %}
 
 {% empty %}
-    <p>No items match your search terms.</p>
+    <p>{% trans "No items match your search terms" %}.</p>
 
 {% endfor %}

@@ -1,11 +1,19 @@
-{% extends "TraderBaseTemplate.html" %}
+{# Shows the login page for the Trading Zone general site. #}
+{# REQUIRED : form of type LoginForm #}
+{# REQUIRED : csrf_token #}
 
-{% block title %}Trading Zone - Login{% endblock %}
+{% extends "TradingZoneBaseTemplate.html" %}
+{% load i18n %}
+{% block title %}{% trans "Trading Zone - Login" %}{% endblock %}
+
+{% block header %}
+    {% trans "Welcome to the Trading Zone." %}
+{% endblock %}
 
 {% block content %}
 
 {% if login_failed %}
-    <p class="alert-error">Sorry, that's not a valid username/password combination.</p>
+    <p class="alert-error">{% trans "Sorry, that's not a valid username/password combination." %}</p>
 {% endif %}
 
     <form action="" method="post">{% csrf_token %}
@@ -13,8 +21,12 @@
       <input type="submit" value="Login">
     </form>
 
-    <p>Not a registered user yet?  Easily register
+    <p>{% trans "Not a registered user yet?  Registration is easy:" %}
         <a class="btn btn-large btn-primary" href="/register/">
-              <i class="icon-comment"></i> Register </a>
+              <i class="icon-comment"></i>{% trans "Register now" %}</a>
     </p>
+{% endblock %}
+
+{% block footer %}
+    <p>{% trans "Thanks for visiting Caracal." %}</p>
 {% endblock %}

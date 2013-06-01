@@ -3,23 +3,24 @@
 {# REQUIRED: email : contact email#}
 {# REQUIRED: body : body of email#}
 {# REQUIRED: subject : subject for email#}
+{% load i18n %}
 
 <h4>
     {{ item.title }}
 </h4>
 <p>
     <p>
-        Price: <span>{{ item.price }}</span>
+        {% trans "Price" %}: <span>{{ item.price }}</span>
     </p>
     <p>
-        Listed: <span>{{ item.listing_date }}</span>
+        {% trans "Listed" %}: <span>{{ item.listing_date }}</span>
     </p>
     <p>
-    Description:    <span>{{ item.description }}</span>
+        {% trans "Description" %}: <span>{{ item.description }}</span>
     </p>
     <p>
-    Seller:    <span><a href="mailto:{{ email }}?subject={{ subject }}&body={{ body }}">
-                {{ item.seller.name }}</a>
-               </span>
+        {% trans "Seller" %}: <span><a href="mailto:{{ email }}?subject={{ subject }}&body={{ body }}">
+                                    {{ item.seller.name }}</a>
+                              </span>
     </p>
 </p>

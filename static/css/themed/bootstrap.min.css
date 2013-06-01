@@ -864,6 +864,9 @@ td{padding:10px;}
 span.forSaleCurrency{color:#222288; text-align: right;};
 span.forSalePrice{color:#222288; text-align: left;}
 span.forSaleDate{color:#222288}
+span.caracal{color:#222288;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:18px;}
+span.trading_zone{color:#222288;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:18px;}
+
 a.forSaleDescription{color:#ffffff;text-decoration:underline;background-color:#BFB549;}
 a.forSaleDescription:visited{color:#261208;text-decoration:underline;background-color:#BFB549;}
 .newUser{font-weight: bold;}

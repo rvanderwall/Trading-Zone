@@ -1,7 +1,7 @@
 __author__ = 'robertv'
 
 import nltk, datetime
-from models import ItemForSale, HuntEntry, Seller
+from models import ItemForSale, HuntEntry
 
 def extract_nouns( sentence):
 
