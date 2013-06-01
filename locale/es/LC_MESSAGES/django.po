@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-31 21:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CaracalApp/message_strings.py:6
+msgid "Full name of user, denormalized with User"
+msgstr ""
+
+#: CaracalApp/message_strings.py:7
+msgid "Street Address"
+msgstr ""
+
+# Use djangos translation
+#: CaracalApp/message_strings.py:10
+msgid "Email"
+msgstr ""
+
+#: CaracalApp/message_strings.py:11
+msgid "Must be valid email address, less that 30 characters."
+msgstr ""
+"Debe ser la dirección de correo electrónico válida, a menos que los 30 "
+"caracteres."
+
+#: CaracalApp/message_strings.py:12
+msgid "Required. Must be valid email address"
+msgstr "Obligatorio. Debe ser la dirección e-mail válida"
+
+#: CaracalApp/message_strings.py:15
+msgid "No Address provided"
+msgstr ""
+
+#: CaracalApp/message_strings.py:16
+msgid "No City provided"
+msgstr ""
+
+#: CaracalApp/message_strings.py:17
+msgid "No State provided"
+msgstr ""
+
+#: CaracalApp/message_strings.py:21
+msgid "Keywords for your hunt"
+msgstr "Palabras clave para su búsqueda"
+
+#: CaracalApp/message_strings.py:22
+msgid "Please use less than 6 words to hunt."
+msgstr "Utilice menos de 6 palabras para cazar."
+
+#: CaracalApp/message_strings.py:23
+#, python-format
+msgid "Hello %(name)s, I'm interested in the item you have for sale."
+msgstr ""
+"Hola, %(name)s Estoy interesado en el elemento que tiene para la venta."
+
+#: CaracalApp/message_strings.py:24
+#, python-format
+msgid ""
+"%(intro)s\n"
+"Please let me know if it's still available.\n"
+"Thanks"
+msgstr ""
+"%(intro)s\n"
+"Por favor, hágamelo saber si todavía está disponibles.\n"
+"gracias"
+
+#: CaracalApp/message_strings.py:27
+msgid "Please enter a valid price, like 150.00."
+msgstr "Describa el precio válido, como 150.00."
+
+#: CaracalApp/message_strings.py:31
+msgid "You are not logged in"
+msgstr "Usted no ha entrado en"
+
+#: CaracalApp/message_strings.py:34
+msgid "About"
+msgstr "Acerca de"
+
+#: CaracalApp/message_strings.py:35
+msgid "Show Items For Sale"
+msgstr "Mostrar artículos a la venta"
+
+#: CaracalApp/message_strings.py:36
+msgid "Show Item details"
+msgstr "Mostrar detalles del artículo"
+
+#: CaracalApp/message_strings.py:37
+msgid "Sell an Item"
+msgstr "Vender un artículo"
+
+#: CaracalApp/message_strings.py:38
+msgid "Add a search request"
+msgstr "Añadir una solicitud de búsqueda"
+
+#: CaracalApp/message_strings.py:39
+msgid "Registration Complete"
+msgstr "registro completo"
+
+#: CaracalApp/models.py:20
+msgid "seller"
+msgstr ""
+
+#: CaracalApp/models.py:21
+msgid "sellers"
+msgstr ""
+
+#: templates/CaracalHomePage.html:9
+msgid "Trading Zone"
+msgstr "Trading Zone(es)"
+
+#: templates/CaracalHomePage.html:13 templates/Auth_Auth/LoginPage.html:10
+#: templates/Auth_Auth/RegisterPage.html:12
+msgid "Welcome to the Trading Zone."
+msgstr "Bienvenido a la Trading Zone"
+
+#: templates/CaracalHomePage.html:24 templates/Auth_Auth/LoginPage.html:31
+#: templates/Auth_Auth/RegisterPage.html:23
+msgid "Thanks for visiting Caracal."
+msgstr "Gracias por su visita Caracal."
+
+# Use djangos translation
+#: templates/NavBar.htm:9
+msgid "Home"
+msgstr ""
+
+#: templates/NavBar.htm:10
+msgid "For Sale"
+msgstr "Venta"
+
+#: templates/NavBar.htm:12
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: templates/NavBar.htm:13
+msgid "Sell Item"
+msgstr "Vender artículo"
+
+#: templates/NavBar.htm:14
+msgid "Log out"
+msgstr "Finalizar la sesión"
+
+#: templates/NavBar.htm:16
+msgid "Login/Register"
+msgstr "Entrar/Crear cuenta"
+
+#: templates/NavBar.htm:20
+msgid "Welcome"
+msgstr "Bienvenida"
+
+#: templates/NavBar.htm:23
+msgid "Info"
+msgstr "Información"
+
+#: templates/Auth_Auth/LoginPage.html:7
+#, fuzzy
+msgid "Trading Zone - Login"
+msgstr "Trading Zone - Entrar"
+
+#: templates/Auth_Auth/LoginPage.html:16
+msgid "Sorry, that's not a valid username/password combination."
+msgstr "Lo siento, eso no es una combinación usuario / contraseña válido."
+
+#: templates/Auth_Auth/LoginPage.html:24
+msgid "Not a registered user yet?  Registration is easy:"
+msgstr "No es un usuario registrado todavía? El registro es muy fácil:"
+
+#: templates/Auth_Auth/LoginPage.html:26
+#, fuzzy
+msgid "Register now"
+msgstr "Regístrese ahora"
+
+#: templates/Auth_Auth/RegisterPage.html:8
+msgid "Trading Zone - Registration"
+msgstr "Trading Zone - Regístrese"
+
+#: templates/Auth_Auth/RegistrationThankYou.htm:6
+#, fuzzy
+msgid "Thank you for registering."
+msgstr "Gracias por su visita Caracal."
+
+#: templates/Auth_Auth/RegistrationThankYou.htm:8
+msgid "Your user name is "
+msgstr ""
+
+#: templates/Auth_Auth/RegistrationThankYou.htm:9
+msgid "All hunt results will be sent to "
+msgstr ""
+
+#: templates/ForSale_actions/AddForSaleItem.htm:8
+msgid "Congratulations!  You've posted an item for sale!"
+msgstr ""
+
+#: templates/ForSale_actions/ForSaleItems.htm:7
+msgid "Please enter search term."
+msgstr "Arama terimi girin."
+
+#: templates/ForSale_actions/ForSaleItems.htm:12
+msgid "Search"
+msgstr "Arama"
+
+#: templates/ForSale_actions/ForSaleItems.htm:15
+msgid "Items for sale as of "
+msgstr "Mostrar artículos a la venta "
+
+#: templates/ForSale_actions/ForSaleItems.htm:43
+msgid "No items match your search terms"
+msgstr "No hay elementos que coincida con sus términos de búsqueda"
+
+#: templates/ForSale_actions/ItemDetails.htm:13
+msgid "Price"
+msgstr "Precio"
+
+#: templates/ForSale_actions/ItemDetails.htm:16
+msgid "Listed"
+msgstr "Listado"
+
+#: templates/ForSale_actions/ItemDetails.htm:19
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/ForSale_actions/ItemDetails.htm:22
+msgid "Seller"
+msgstr "Vendedor"
+
+#: templates/General/HomePage.htm:10
+msgid ""
+"The caracal is a stealth hunter always on the lookout for prey.  That's what "
+"you get with"
+msgstr ""
+"El caracal es un cazador furtivo siempre en busca de presas. Eso es lo quese "
+"obtiene con"
+
+# Use djangos translation
+#: templates/General/HomePage.htm:12
+msgid "and"
+msgstr ""
+
+#: templates/General/HomePage.htm:13
+msgid "a bargain hunter that's always looking out for the best buys for you."
+msgstr ""
+"un cazador de gangas que siempre está mirando hacia fuera para la mejor "
+"compra para usted."
