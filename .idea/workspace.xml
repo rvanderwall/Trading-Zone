@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ForSale_actions/AddForSaleItem.htm" afterPath="$PROJECT_DIR$/templates/ForSale_actions/AddForSaleItem.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup.txt" afterPath="$PROJECT_DIR$/Setup.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/forms.py" afterPath="$PROJECT_DIR$/CaracalApp/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/views/views.py" afterPath="$PROJECT_DIR$/CaracalApp/views/views.py" />
-    </list>
-    <list id="11dc335e-0e65-49bc-84b4-24ffee89f627" name="New changelist" comment="New changelist">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteData.db" afterPath="$PROJECT_DIR$/SiteData.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="b369eb01-26f1-458c-8b47-65ed93241885" name="Rejected commit: Default" comment="Move static files">
@@ -45,7 +38,7 @@
     <file path="/ItemDetailsTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247995137" ignored="false" />
     <file path="/register.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366933476547" ignored="false" />
     <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1369445589005" ignored="false" />
-    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371255329294" ignored="false" />
+    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371260906013" ignored="false" />
     <file path="/tests.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371254697715" ignored="false" />
     <file path="/RegistrationThankYou.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184691144" ignored="false" />
     <file path="/view_helpers.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367181956025" ignored="false" />
@@ -77,7 +70,6 @@
     <file path="/CurDatePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370043569064" ignored="false" />
     <file path="/403.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045231315" ignored="false" />
     <file path="/LoginPage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048817220" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371258979144" ignored="false" />
     <file path="/Setup.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371258973775" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -642,7 +634,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="" />
-      <changelist id="11dc335e-0e65-49bc-84b4-24ffee89f627" name="New changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1365772157138</created>
       <updated>1365772157138</updated>
     </task>
@@ -714,7 +706,15 @@
       <created>1371255054459</created>
       <updated>1371255054459</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="New changelist">
+      <created>1371260777655</created>
+      <updated>1371260777655</updated>
+    </task>
+    <task id="LOCAL-00019" summary="New changelist">
+      <created>1371260917672</created>
+      <updated>1371260917672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -741,6 +741,7 @@
     <frame x="13" y="35" width="1369" height="826" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,7 +756,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32577905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -803,7 +803,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add translations&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -828,6 +828,7 @@
     <MESSAGE value="better error message on invalid price" />
     <MESSAGE value="Refactor names to Trading Zone for the site and Caracal for the app&#10;add internationalization&#10;" />
     <MESSAGE value="Add translations&#10;" />
+    <MESSAGE value="New changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
