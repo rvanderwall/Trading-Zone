@@ -10,10 +10,11 @@ from message_strings import help_email
 
 
 class ItemForSaleForm(forms.Form):
-    title = forms.CharField()
+    title = forms.CharField(max_length=50)
     description = forms.CharField(widget=forms.Textarea, max_length=2000)
     price = forms.DecimalField(max_digits=10, decimal_places=2, min_value=0,
                                error_messages={'invalid' : (invalid_price,)})
+    file = forms.ImageField()
 
 class HuntItemForm(forms.Form):
     title = forms.CharField(max_length=50)

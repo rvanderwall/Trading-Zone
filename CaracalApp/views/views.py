@@ -48,9 +48,10 @@ def sellAnItem(request):
         return HttpResponse(invalid_not_logged_in)
 
     if request.method == 'POST':
-        form=ItemForSaleForm(request.POST)
+        form=ItemForSaleForm(request.POST, request.FILES)
         if form.is_valid():
             cd = form.cleaned_data
+            fileSize = request.FILES['file'].size
             email_count = add_item_for_sale(cd['title'], cd['description'], cd['price'], request.user)
             created=True
             form = ItemForSaleForm()

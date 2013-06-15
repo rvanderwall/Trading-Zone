@@ -16,8 +16,8 @@ sudo apt-get install ec2-api-tools
 
 # generate a certificate here: https://portal.aws.amazon.com/gp/aws/securityCredentials#access_credentials
 
-export EC2_PRIVATE_KEY=pk-VFQVMG5C4RVMRRROQBGUB4OUE2JU4IIX.pem
-export EC2_CERT=cert-VFQVMG5C4RVMRRROQBGUB4OUE2JU4IIX.pem
+export EC2_PRIVATE_KEY=pk-XXXXX.pem
+export EC2_CERT=cert-XXXXX.pem
 ec2-authorize default -P icmp -t -1:-1 -s 0.0.0.0/0
 # Open port 8000 on the security group
 ===================================================
@@ -79,6 +79,8 @@ sudo apt-get install apache2-mpm-worker libapache2-mod-fastcgi
 sudo a2enmod rewrite
 sudo service apache2 restart
 
+# Install image libraries
+pip install pil
 
 cd Trading-Zone
 ./manage.py runfcgi method=threaded host=127.0.0.1 port=3033
