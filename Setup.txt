@@ -79,7 +79,7 @@ sudo apt-get install apache2-mpm-worker libapache2-mod-fastcgi
 sudo a2enmod rewrite
 sudo service apache2 restart
 
-# Install image libraries
+# Install image libraries for uploading and displaying images
 pip install pil
 
 cd Trading-Zone
