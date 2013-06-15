@@ -3,7 +3,9 @@ __author__ = 'robertv'
 from models import Seller, ItemForSale
 from django.contrib.auth.models import User
 
+
 import datetime
+
 
 def SeedSellers():
     for seller_name in ['George', 'Paul', 'Ringo', 'John']:

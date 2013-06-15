@@ -5,11 +5,14 @@ when you run "manage.py test".
 Replace this with more appropriate tests for your application.
 """
 
+#https://docs.djangoproject.com/en/dev/topics/testing/overview/
+import unittest
 from django.test import TestCase
-#import unittest
 from CaracalApp.listing_processor import extract_nouns
 
-class SimpleTest(TestCase):
+class SimpleTestCase(TestCase):
+    def setUp(self):
+        pass
 
     def test_can_get_one_noun_from_one_word(self):
         nouns = extract_nouns("car")
@@ -27,5 +30,5 @@ class SimpleTest(TestCase):
         """
         self.assertEqual(1 + 1, 2)
 
-
-#unittest.main()
+if __name__ == '__main__':
+    unittest.main()
