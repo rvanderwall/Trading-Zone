@@ -1,4 +1,3 @@
-# Ember test
 
 App = Ember.Application.create({});
 
