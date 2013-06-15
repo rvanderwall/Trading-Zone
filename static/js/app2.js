@@ -1,3 +1,5 @@
+# Ember test
+
 App = Ember.Application.create({});
 
 App.ApplicationController = Ember.Controller.extend({
@@ -18,3 +20,4 @@ App.ApplicationController = Ember.Controller.extend({
       controller.set('content', ['angular.js', 'backbone.js', 'ember.js']);
     }
   });
+
