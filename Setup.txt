@@ -121,7 +121,7 @@ sudo service apache2 restart
 # Install django, image libraries for uploading and displaying images
 sudo pip install django
 sudo pip install nltk
-sudo pip install pil	# fails??
+sudo apt-get build-dep python-imaging
 
 # Change Trading-Zone/TradingZoneSite/settings.py to be PRODUCTION=True
 
