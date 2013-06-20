@@ -1,17 +1,25 @@
-# ON AZ Console:
+
+#--------------------------------------------------------------------
+# ---  Set up IP security in AZ
+
+# On AZ Console:
 On Security Groups -> Inbound -> Create rule for ICMP
 
 
+#--------------------------------------------------------------------
+# ---  Update the system
 sudo apt-get update
 
 
-#uncomment all of the Multiverse lines to the /etc/apt/sources.list file
+#--------------------------------------------------------------------
+# ---  Set up app repositories for apt-get
+#  uncomment all of the Multiverse lines to the /etc/apt/sources.list file
 # Add these line to the end of the file:
 deb http://archive.ubuntu.com/ubuntu/ precise main restricted multiverse
 deb-src http://archive.ubuntu.com/ubuntu precise main restricted multiverse
 
 
-=============    NOT NEEDED ========================
+=============    NOT NEEDED   ========================
 sudo apt-get install ec2-api-tools
 
 # generate a certificate here: https://portal.aws.amazon.com/gp/aws/securityCredentials#access_credentials
@@ -86,3 +94,5 @@ cd Trading-Zone
 ./manage.py runfcgi method=threaded host=127.0.0.1 port=3033
 
 ^/(.*)
+
+
