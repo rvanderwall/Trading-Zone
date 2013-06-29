@@ -1,4 +1,7 @@
+# types.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
+
 from django.db import models
 from decimal import Decimal
 

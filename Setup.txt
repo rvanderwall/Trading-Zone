@@ -121,12 +121,22 @@ sudo service apache2 restart
 # Install django, image libraries for uploading and displaying images
 sudo pip install django
 sudo pip install nltk
+sudo pip install numpy
 sudo apt-get build-dep python-imaging
 
 # Change Trading-Zone/TradingZoneSite/settings.py to be PRODUCTION=True
-
 chmod 777 SiteData.db
 
+#  Download NLTK corpus
+> Python
+>>  import nltk
+>>  nltk.download()
+>       large_grammars
+>       punkt
+>       maxent_treebank_pos_tagger
+
+#-------------------------  STEP 8  -------------------------------------------
+# --- Start the site
 #./manage.py runfcgi method=threaded host=127.0.0.1 port=3033
 runF
 

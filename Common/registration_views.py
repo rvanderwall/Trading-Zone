@@ -1,14 +1,18 @@
+# registration_views.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
+
+from CaracalApp.views.views import render_action_template
+from CaracalApp.services import create_seller
+
+from Common.forms import RegistrationForm, LoginForm
+from Common.view_helpers import render_template
+from Common.message_strings import section_registration_compete
 
 from django.http import HttpResponseRedirect
 from django.contrib import auth
 
-from CaracalApp.forms import RegistrationForm, LoginForm
-from CaracalApp.views.view_helpers import render_template, render_action_template
-from CaracalApp.services import create_seller
-from CaracalApp.message_strings import section_registration_compete
 
-#https://github.com/yourcelf/django-registration-defaults
 
 def login(request):
     if request.method == 'POST':

@@ -1,8 +1,9 @@
+# SeedData.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
 
 from models import Seller, ItemForSale
 from django.contrib.auth.models import User
-
 
 import datetime
 

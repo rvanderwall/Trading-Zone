@@ -1,3 +1,7 @@
+# models.py
+__author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
+
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import ugettext_lazy as _

@@ -2,44 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app2.js" afterPath="$PROJECT_DIR$/static/js/app2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/General/About_CB.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearBlueApp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/message_strings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearBlueApp/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CaracalApp/views/registration_views.py" afterPath="$PROJECT_DIR$/Common/registration_views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CaracalApp/views/view_helpers.py" afterPath="$PROJECT_DIR$/Common/view_helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/SeedData.py" afterPath="$PROJECT_DIR$/CaracalApp/SeedData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup.txt" afterPath="$PROJECT_DIR$/Setup.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/admin.py" afterPath="$PROJECT_DIR$/CaracalApp/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/forms.py" afterPath="$PROJECT_DIR$/CaracalApp/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/listing_processor.py" afterPath="$PROJECT_DIR$/CaracalApp/listing_processor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/message_strings.py" afterPath="$PROJECT_DIR$/CaracalApp/message_strings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/models.py" afterPath="$PROJECT_DIR$/CaracalApp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/services.py" afterPath="$PROJECT_DIR$/CaracalApp/services.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingZoneSite/settings.py" afterPath="$PROJECT_DIR$/TradingZoneSite/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/types.py" afterPath="$PROJECT_DIR$/CaracalApp/types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingZoneSite/urls.py" afterPath="$PROJECT_DIR$/TradingZoneSite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/views/views.py" afterPath="$PROJECT_DIR$/CaracalApp/views/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tutucu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048900463" ignored="false" />
-    <file path="/urls.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1368383996581" ignored="false" />
-    <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1369452559617" ignored="false" />
-    <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371257901369" ignored="false" />
+    <file path="/urls.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372472402050" ignored="false" />
+    <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473798118" ignored="false" />
+    <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473484120" ignored="false" />
     <file path="/README" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370044689846" ignored="false" />
     <file path="/current_datetime.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365893864337" ignored="false" />
     <file path="/NavBar.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367183264323" ignored="false" />
     <file path="/BaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365893666402" ignored="false" />
-    <file path="/settings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045735817" ignored="false" />
+    <file path="/settings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372472073834" ignored="false" />
     <file path="/manage.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366159653022" ignored="false" />
     <file path="/TraderBaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370040966506" ignored="false" />
     <file path="/TraderHome.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365903224416" ignored="false" />
-    <file path="/SeedData.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371253457517" ignored="false" />
+    <file path="/SeedData.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473895774" ignored="false" />
     <file path="/SeedTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365913598763" ignored="false" />
     <file path="/TraderHomeTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366078825649" ignored="false" />
     <file path="/ShowSellersTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366156821559" ignored="false" />
-    <file path="/admin.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371253214174" ignored="false" />
+    <file path="/admin.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473657016" ignored="false" />
     <file path="/ListingProcessor.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366074015085" ignored="false" />
     <file path="/ShowForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366156929751" ignored="false" />
     <file path="/AddItemForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366079873395" ignored="false" />
     <file path="/AddSearchNotificationTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366074801483" ignored="false" />
-    <file path="/services.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1369576293586" ignored="false" />
-    <file path="/forms.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370023751160" ignored="false" />
+    <file path="/services.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473883958" ignored="false" />
+    <file path="/forms.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473917613" ignored="false" />
     <file path="/ForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366248150535" ignored="false" />
     <file path="/SearchNotificationTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366158048421" ignored="false" />
     <file path="/AddForSaleItemTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247427200" ignored="false" />
     <file path="/ItemDetailsTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247995137" ignored="false" />
     <file path="/register.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366933476547" ignored="false" />
-    <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1369445589005" ignored="false" />
-    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371261448168" ignored="false" />
+    <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372474074514" ignored="false" />
+    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372471588236" ignored="false" />
     <file path="/tests.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371254697715" ignored="false" />
     <file path="/RegistrationThankYou.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184691144" ignored="false" />
-    <file path="/view_helpers.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367181956025" ignored="false" />
+    <file path="/view_helpers.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372474110729" ignored="false" />
     <file path="/Login.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184173897" ignored="false" />
     <file path="/AddForSaleItem.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184736812" ignored="false" />
     <file path="/ForSaleItems.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184755051" ignored="false" />
@@ -47,7 +66,7 @@
     <file path="/HuntList.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184801477" ignored="false" />
     <file path="/Sellers.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184894899" ignored="false" />
     <file path="/Sellers.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370044165962" ignored="false" />
-    <file path="/listing_processor.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367280079827" ignored="false" />
+    <file path="/listing_processor.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473756360" ignored="false" />
     <file path="/AddForSaleItem.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371258194122" ignored="false" />
     <file path="/main.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367782941895" ignored="false" />
     <file path="/app.yaml" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367783268079" ignored="false" />
@@ -61,14 +80,29 @@
     <file path="/NavBar.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370033905925" ignored="false" />
     <file path="/About.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370041324673" ignored="false" />
     <file path="/README.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370041831792" ignored="false" />
-    <file path="/message_strings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370026262601" ignored="false" />
+    <file path="/message_strings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473938750" ignored="false" />
     <file path="/ItemNotFound.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1369575778148" ignored="false" />
     <file path="/TraderHomePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370026729649" ignored="false" />
     <file path="/RegisterPage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048847917" ignored="false" />
     <file path="/CurDatePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370043569064" ignored="false" />
     <file path="/403.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045231315" ignored="false" />
     <file path="/LoginPage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048817220" ignored="false" />
-    <file path="/Setup.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371258973775" ignored="false" />
+    <file path="/Setup.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372029380059" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xhtml1-strict.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/catalog.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/html5/xhtml5.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/XMLSchema.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/relaxng.rng" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xinclude.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xslt-1_0.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xslt-2_0.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xml.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723308" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723309" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371770723309" ignored="false" />
+    <file path="/About_CB.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372471951442" ignored="false" />
+    <file path="/views" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372471959338" ignored="false" />
+    <file path="/types.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473866214" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,57 +122,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddForSaleItem.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ForSale_actions/AddForSaleItem.htm">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="79" selection-start="412" selection-end="412" vertical-scroll-proportion="-1.875">
+            <state line="12" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Setup.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Setup.txt">
+      <file leaf-file-name="CaracalHomePage.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/CaracalHomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="25" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app2.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/app2.js">
+      <file leaf-file-name="TradingZoneBaseTemplate.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/TradingZoneBaseTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="6" selection-start="528" selection-end="528" vertical-scroll-proportion="0.45882353">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/forms.py">
+      <file leaf-file-name="view_helpers.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/view_helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#24#48#0" expanded="true" />
+                <element signature="e#83#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fields.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/forms/fields.py">
+      <file leaf-file-name="message_strings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/message_strings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="531" column="16" selection-start="21495" selection-end="21505" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/tests/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+            <state line="12" column="23" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,8 +172,10 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="20" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="92" column="69" selection-start="2972" selection-end="3088" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#91#127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,28 +199,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CaracalApp/message_strings.py" />
-        <option value="$PROJECT_DIR$/templates/ForSale_actions/ForSaleItems.htm" />
-        <option value="$PROJECT_DIR$/templates/ItemNotFound.html" />
-        <option value="$PROJECT_DIR$/templates/SeedPage.html" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/LoginPage.html" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/RegistrationThankYou.htm" />
-        <option value="$PROJECT_DIR$/templates/ForSale_actions/ItemDetails.htm" />
-        <option value="$PROJECT_DIR$/CaracalApp/admin.py" />
-        <option value="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
-        <option value="$PROJECT_DIR$/CaracalApp/SeedData.py" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/urls.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/views/registration_views.py" />
         <option value="$PROJECT_DIR$/CaracalApp/views/views.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/admin.py" />
         <option value="$PROJECT_DIR$/CaracalApp/forms.py" />
-        <option value="$PROJECT_DIR$/templates/ForSale_actions/AddForSaleItem.htm" />
-        <option value="$PROJECT_DIR$/Setup.txt" />
-        <option value="$PROJECT_DIR$/static/js/app2.js" />
+        <option value="$PROJECT_DIR$/CaracalApp/listing_processor.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/models.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/types.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/services.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/SeedData.py" />
+        <option value="$PROJECT_DIR$/Common/forms.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/message_strings.py" />
+        <option value="$PROJECT_DIR$/Common/message_strings.py" />
+        <option value="$PROJECT_DIR$/Common/registration_views.py" />
+        <option value="$PROJECT_DIR$/Common/view_helpers.py" />
+        <option value="$PROJECT_DIR$/ClearBlueApp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="35" />
+    <option name="x" value="32" />
+    <option name="y" value="41" />
     <option name="width" value="1369" />
     <option name="height" value="826" />
   </component>
@@ -255,70 +282,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForSale_actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CaracalApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -327,14 +290,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Common/forms.py" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -348,11 +311,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Common" />
       <recent name="$PROJECT_DIR$/templates/General" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/smartcaracal/smartcaracal" />
-      <recent name="$PROJECT_DIR$/smartcaracal" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.TraderZone">
@@ -401,6 +364,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tutucu" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -423,22 +402,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tutucu" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="browserUrl" value="" />
-      <option name="additionalOptions" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,27 +419,17 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DjangoProject" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -502,17 +455,27 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
-      <module name="" />
-      <option name="PORT" value="0" />
-      <option name="HOST" value="null" />
-      <PathMappingSettings>
-        <option name="pathMappings">
-          <list />
-        </option>
-      </PathMappingSettings>
-      <option name="REDIRECT_OUTPUT" value="true" />
-      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -655,7 +618,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1365772157138</created>
       <updated>1365772157138</updated>
     </task>
@@ -743,7 +705,15 @@
       <created>1371261458114</created>
       <updated>1371261458114</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Move static files">
+      <created>1371261637333</created>
+      <updated>1371261637333</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Move static files">
+      <created>1371687461411</created>
+      <updated>1371687461411</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -767,24 +737,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="35" width="1369" height="826" extended-state="0" />
+    <frame x="32" y="41" width="1369" height="826" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.6734375" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31670445" sideWeight="0.703966" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3431595" sideWeight="0.70621467" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30736545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.6734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.296034" sideWeight="0.9879063" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708934" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2937853" sideWeight="0.9879063" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485875" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32577905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -865,124 +835,130 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/ForSale_actions/ItemDetails.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CaracalApp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.66964287">
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/tests/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/SeedData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#24#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.form.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/tz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="158" selection-end="158" vertical-scroll-proportion="0.19189766">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/forms/fields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="531" column="16" selection-start="21495" selection-end="21505" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="0" selection-end="75" vertical-scroll-proportion="0.1">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CaracalApp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.96444446">
           <folding>
-            <element signature="e#24#48#0" expanded="true" />
+            <element signature="e#76#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/listing_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#76#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#79#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/SeedData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#79#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="266" selection-end="266" vertical-scroll-proportion="0.3">
+          <folding>
+            <element signature="e#77#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.26666668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/message_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="955" selection-end="979" vertical-scroll-proportion="0.6674473">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/registration_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.46666667">
+          <folding>
+            <element signature="e#89#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/view_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#83#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="20" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+        <state line="92" column="69" selection-start="2972" selection-end="3088" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#91#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingZoneSite/README">
+    <entry file="file://$PROJECT_DIR$/templates/CaracalHomePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/templates/TradingZoneBaseTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ForSale_actions/AddForSaleItem.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="79" selection-start="412" selection-end="412" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Setup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="25" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="6" selection-start="528" selection-end="528" vertical-scroll-proportion="0.45882353">
           <folding />
         </state>
       </provider>

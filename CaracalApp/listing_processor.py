@@ -1,4 +1,6 @@
+# listing_processor.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
 
 import nltk, datetime
 from models import ItemForSale, HuntEntry

@@ -1,14 +1,20 @@
 # Create your views here.
+__author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
+
 from django.http import HttpResponse
+
+from CaracalApp.forms import ItemForSaleForm, HuntItemForm
 
 from CaracalApp.services import get_items_for_sale, add_item_for_sale, get_item_details
 from CaracalApp.services import get_sellers, get_contact_info
 from CaracalApp.services import get_hunt_list, add_hunt_entry
-from CaracalApp.forms import ItemForSaleForm, HuntItemForm
-from CaracalApp.views.view_helpers import render_action_template, render_template
 
-from CaracalApp.message_strings import section_about, section_show_items, section_show_details
+from CaracalApp.message_strings import section_show_items, section_show_details
 from CaracalApp.message_strings import section_sell_item, section_add_hunt, invalid_not_logged_in
+
+from Common.view_helpers import render_template
+
 
 def home(request):
     seller_list = get_sellers(None)
@@ -82,3 +88,6 @@ def hunt_list(request):
     action_template = "HuntList_actions/HuntList.htm"
     return render_action_template(request, locals())
 
+
+def render_action_template(request, p_locals):
+    return render_template(request, 'CaracalHomePage.html', p_locals)

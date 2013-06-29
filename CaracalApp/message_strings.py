@@ -1,15 +1,12 @@
+# admin.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
 
 from django.utils.translation import ugettext_noop, ugettext_lazy as _
 
 # Strings for Models
 help_name = _('Full name of user, denormalized with User')
 help_address = _("Street Address")
-
-# Strings for Registration page
-label_email = _("Email")
-invalid_email = _("Must be valid email address, less that 30 characters.")
-help_email = _("Required. Must be valid email address")
 
 # Not translated in the DB, they may get translated when displayed to user
 default_address = ugettext_noop("No Address provided")
@@ -36,4 +33,3 @@ section_show_items = _("Show Items For Sale")
 section_show_details = _("Show Item details")
 section_sell_item = _("Sell an Item")
 section_add_hunt = _("Add a search request")
-section_registration_compete = _("Registration Complete")

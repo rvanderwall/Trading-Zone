@@ -1,4 +1,6 @@
+# services.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
 
 import datetime
 from models import HuntEntry, ItemForSale, Seller
@@ -56,7 +58,7 @@ def get_sellers(filter):
     if not filter:
         return Seller.objects.filter(active = True)
     else:
-        return Seller.objects.filter(active = True,name__icontains=filter)
+        return Seller.objects.filter(active = True, name__icontains=filter)
 
 def get_seller_for_user(user):
     return Seller.objects.get(user=user)

@@ -1,8 +1,10 @@
+# view_helpers.py
 __author__ = 'robertv'
+__copyright__ = "QED Testing, Inc. 2013"
 
 import datetime
 from django.core.context_processors import csrf
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 
 def requires_login(view):
@@ -15,12 +17,7 @@ def requires_login(view):
 
 
 # Renders a page using the action_template and current_section defined in locals()
-# Renders through the Home page
-def render_action_template(request, p_locals):
-    return render_template(request, 'CaracalHomePage.html', p_locals)
-
-# Same as render_action_template except you specify the home page.
-# Good for registration and such where you want a clean page
+# Renders through the Home page that you specify.
 def render_template(request, template_name, p_locals):
     current_date = datetime.datetime.now()
     user = request.user
