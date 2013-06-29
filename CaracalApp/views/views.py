@@ -18,12 +18,12 @@ from Common.view_helpers import render_template
 
 def home(request):
     seller_list = get_sellers(None)
-    action_template = "General/HomePage.htm"
+    action_template = "Caracal/General/HomePage.htm"
     return render_action_template(request, locals())
 
 def about(request):
     debug_text = " Language:" + request.LANGUAGE_CODE + ":"
-    action_template = "General/About.htm"
+    action_template = "Caracal/General/About.htm"
     return render_action_template(request, locals())
 
 
@@ -35,7 +35,7 @@ def items_for_sale(request):
         items_for_sale = get_items_for_sale(None)
 
     current_section = section_show_items
-    action_template = "ForSale_actions/ForSaleItems.htm"
+    action_template = "Caracal/ForSale_actions/ForSaleItems.htm"
     return render_action_template(request, locals())
 
 def itemDetails(request, item_id):
@@ -44,7 +44,7 @@ def itemDetails(request, item_id):
         email, subject, body = get_contact_info(item)
 
         current_section = section_show_details
-        action_template = "ForSale_actions/ItemDetails.htm"
+        action_template = "Caracal/ForSale_actions/ItemDetails.htm"
         return render_action_template(request, locals())
     else:
         return render_template(request, "ItemNotFound.html", locals())
@@ -65,7 +65,7 @@ def sellAnItem(request):
         form = ItemForSaleForm()
 
     current_section = section_sell_item
-    action_template = "ForSale_actions/AddForSaleItem.htm"
+    action_template = "Caracal/ForSale_actions/AddForSaleItem.htm"
     return render_action_template(request, locals())
 
 
@@ -85,9 +85,9 @@ def hunt_list(request):
             form = HuntItemForm()
 
     current_section = section_add_hunt
-    action_template = "HuntList_actions/HuntList.htm"
+    action_template = "Caracal/HuntList_actions/HuntList.htm"
     return render_action_template(request, locals())
 
 
 def render_action_template(request, p_locals):
-    return render_template(request, 'CaracalHomePage.html', p_locals)
+    return render_template(request, 'Caracal/CaracalHomePage.html', p_locals)

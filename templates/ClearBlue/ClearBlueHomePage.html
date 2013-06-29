@@ -6,11 +6,15 @@
 {% get_current_language_bidi as LANGUAGE_BIDI %}
 
 {% block title %}
-    {% blocktrans %}Trading Zone{% endblocktrans %}
+    {% blocktrans %}Trading Zone - Clear Blue{% endblocktrans %}
+{% endblock %}
+
+{% block theme %}
+    <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/themed2/bootstrap.min.css">
 {% endblock %}
 
 {% block header %}
-    {% trans "Welcome to the Trading Zone." %}
+    {% trans "Welcome to Clear Blue." %}
     {%  if DEBUG %}
         - {{ debug_text }}
     {% endif  %}
@@ -21,7 +25,7 @@
 {% endblock %}
 
 {% block footer %}
-    <p>{% trans "Thanks for visiting Caracal." %}</p>
+    <p>{% trans "Thanks for visiting Clear Blue." %}</p>
     {% if DEBUG %}
         <a href="/admin/">Administration</a>
     {% endif %}

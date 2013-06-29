@@ -7,7 +7,9 @@
     {% get_static_prefix as STATIC_PREFIX %}
 
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/normalize.css">
-    <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/themed/bootstrap.min.css">
+{% block theme %}
+    <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/bootstrap.css">
+{% endblock %}
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/style.css">
 </head>

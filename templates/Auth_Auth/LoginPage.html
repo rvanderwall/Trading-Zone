@@ -6,6 +6,10 @@
 {% load i18n %}
 {% block title %}{% trans "Trading Zone - Login" %}{% endblock %}
 
+{% block theme %}
+    <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/themed/bootstrap.min.css">
+{% endblock %}
+
 {% block header %}
     {% trans "Welcome to the Trading Zone." %}
 {% endblock %}
