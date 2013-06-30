@@ -28,7 +28,7 @@ class Customer(models.Model):
 
 
 class ChemicalPoolTest(models.Model):
-    seller = models.ForeignKey(Customer)
+    customer = models.ForeignKey(Customer)
     date_of_test = models.DateField(blank=False)
 
     ph = models.DecimalField(max_digits=2, decimal_places=2, blank=True, help_text="0 - 10.0")
@@ -41,14 +41,14 @@ class ChemicalPoolTest(models.Model):
     notes = models.CharField(max_length=500, blank=True)
 
     def __unicode__(self):
-        return self.seller.name + self.date_of_test
+        return self.customer.name + self.date_of_test
 
     class Meta:
         ordering = ['-date_of_test']
 
 
 class PoolMaintenance(models.Model):
-    seller = models.ForeignKey(Customer)
+    customer = models.ForeignKey(Customer)
     date_of_work = models.DateField(blank=False)
 
     acid = models.DecimalField(max_digits=3, decimal_places=0, blank=True, help_text="0-999 cups")
@@ -64,14 +64,14 @@ class PoolMaintenance(models.Model):
     notes = models.CharField(max_length=500, blank=True)
 
     def __unicode__(self):
-        return self.seller.name + self.date_of_test
+        return self.customer.name + self.date_of_test
 
     class Meta:
         ordering = ['-date_of_work']
 
 
 class PoolCharacteristics(models.Model):
-    seller = models.ForeignKey(Customer)
+    customer = models.ForeignKey(Customer)
     date_of_work = models.DateField(blank=False)
     name_of_pool = models.CharField(max_length=50, blank=True)
 
@@ -81,4 +81,4 @@ class PoolCharacteristics(models.Model):
     notes = models.CharField(max_length=500, blank=True)
 
     def __unicode__(self):
-        return self.seller.name + self.name_of_pool
+        return self.customer.name + self.name_of_pool

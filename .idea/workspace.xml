@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ClearBlue/ClearBlueHomePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearBlueApp/message_strings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearBlueApp/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/CaracalHomePage.html" afterPath="$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/ForSale_actions/AddForSaleItem.htm" afterPath="$PROJECT_DIR$/templates/Caracal/ForSale_actions/AddForSaleItem.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/ForSale_actions/ForSaleItems.htm" afterPath="$PROJECT_DIR$/templates/Caracal/ForSale_actions/ForSaleItems.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/ForSale_actions/ItemDetails.htm" afterPath="$PROJECT_DIR$/templates/Caracal/ForSale_actions/ItemDetails.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/General/About.htm" afterPath="$PROJECT_DIR$/templates/Caracal/General/About.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/General/About_CB.htm" afterPath="$PROJECT_DIR$/templates/ClearBlue/General/About.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/General/HomePage.htm" afterPath="$PROJECT_DIR$/templates/Caracal/General/HomePage.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/HuntList_actions/HuntList.htm" afterPath="$PROJECT_DIR$/templates/Caracal/HuntList_actions/HuntList.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteData.db" afterPath="$PROJECT_DIR$/SiteData.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Auth_Auth/LoginPage.html" afterPath="$PROJECT_DIR$/templates/Auth_Auth/LoginPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" afterPath="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" />
+    <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="Add ClearBlue project&#10;Refactor out common elements">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ClearBlue/General/NavBar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ClearBlue/PoolHelpMain.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearBlueApp/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearBlueApp/services.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/NavBar.htm" afterPath="$PROJECT_DIR$/templates/Caracal/General/NavBar.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html" afterPath="$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ClearBlue/ClearBlueHomePage.html" afterPath="$PROJECT_DIR$/templates/ClearBlue/ClearBlueHomePage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingZoneSite/README" afterPath="$PROJECT_DIR$/TradingZoneSite/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/TradingZoneBaseTemplate.html" afterPath="$PROJECT_DIR$/templates/TradingZoneBaseTemplate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/forms.py" afterPath="$PROJECT_DIR$/CaracalApp/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/message_strings.py" afterPath="$PROJECT_DIR$/CaracalApp/message_strings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/message_strings.py" afterPath="$PROJECT_DIR$/ClearBlueApp/message_strings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/message_strings.py" afterPath="$PROJECT_DIR$/Common/message_strings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/models.py" afterPath="$PROJECT_DIR$/ClearBlueApp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingZoneSite/urls.py" afterPath="$PROJECT_DIR$/TradingZoneSite/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/views/views.py" afterPath="$PROJECT_DIR$/CaracalApp/views/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/views.py" afterPath="$PROJECT_DIR$/ClearBlueApp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -25,10 +26,10 @@
     <ignored path="Tutucu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048900463" ignored="false" />
-    <file path="/urls.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372472402050" ignored="false" />
-    <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372531188485" ignored="false" />
-    <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372532494059" ignored="false" />
-    <file path="/README" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370044689846" ignored="false" />
+    <file path="/urls.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536494144" ignored="false" />
+    <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372546808751" ignored="false" />
+    <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372548476019" ignored="false" />
+    <file path="/README" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372546263909" ignored="false" />
     <file path="/current_datetime.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365893864337" ignored="false" />
     <file path="/NavBar.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367183264323" ignored="false" />
     <file path="/BaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365893666402" ignored="false" />
@@ -45,15 +46,15 @@
     <file path="/ShowForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366156929751" ignored="false" />
     <file path="/AddItemForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366079873395" ignored="false" />
     <file path="/AddSearchNotificationTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366074801483" ignored="false" />
-    <file path="/services.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473883958" ignored="false" />
-    <file path="/forms.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473917613" ignored="false" />
+    <file path="/services.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372546900848" ignored="false" />
+    <file path="/forms.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372546080227" ignored="false" />
     <file path="/ForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366248150535" ignored="false" />
     <file path="/SearchNotificationTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366158048421" ignored="false" />
     <file path="/AddForSaleItemTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247427200" ignored="false" />
     <file path="/ItemDetailsTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247995137" ignored="false" />
     <file path="/register.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366933476547" ignored="false" />
     <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372474074514" ignored="false" />
-    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372534368005" ignored="false" />
+    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372633760346" ignored="false" />
     <file path="/tests.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371254697715" ignored="false" />
     <file path="/RegistrationThankYou.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184691144" ignored="false" />
     <file path="/view_helpers.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372474110729" ignored="false" />
@@ -71,14 +72,14 @@
     <file path="/404.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045284976" ignored="false" />
     <file path="/500.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045418371" ignored="false" />
     <file path="/ForSaleItems.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048544249" ignored="false" />
-    <file path="/bootstrap.min.css" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372534309766" ignored="false" />
+    <file path="/bootstrap.min.css" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372547521360" ignored="false" />
     <file path="/ItemDetails.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045836372" ignored="false" />
     <file path="/RegistrationNameUsed.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1368376519108" ignored="false" />
     <file path="/RegistrationThankYou.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370049014400" ignored="false" />
-    <file path="/NavBar.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370033905925" ignored="false" />
+    <file path="/NavBar.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536407626" ignored="false" />
     <file path="/About.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370041324673" ignored="false" />
     <file path="/README.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370041831792" ignored="false" />
-    <file path="/message_strings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372529894859" ignored="false" />
+    <file path="/message_strings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372548200309" ignored="false" />
     <file path="/ItemNotFound.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1369575778148" ignored="false" />
     <file path="/TraderHomePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370026729649" ignored="false" />
     <file path="/RegisterPage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048847917" ignored="false" />
@@ -101,8 +102,11 @@
     <file path="/About_CB.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372471951442" ignored="false" />
     <file path="/views" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372471959338" ignored="false" />
     <file path="/types.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372473866214" ignored="false" />
-    <file path="/ClearBlueHomePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372533261122" ignored="false" />
-    <file path="/TradingZoneBaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372529111063" ignored="false" />
+    <file path="/ClearBlueHomePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536007020" ignored="false" />
+    <file path="/TradingZoneBaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372535968174" ignored="false" />
+    <file path="/CaracalHomePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372535989904" ignored="false" />
+    <file path="/PoolHelpMain.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536277820" ignored="false" />
+    <file path="/AddChemicalTest.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372548645377" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,28 +126,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingZoneSite/README">
+      <file leaf-file-name="services.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClearBlueApp/services.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="31" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
+            <state line="21" column="11" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#79#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_strings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClearBlueApp/message_strings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="18" selection-start="462" selection-end="480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CaracalHomePage.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Caracal/General/HomePage.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1118" selection-end="1133" vertical-scroll-proportion="-15.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddChemicalTest.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="12" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.5752773">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForSaleItems.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Caracal/ForSale_actions/ForSaleItems.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="10" selection-start="803" selection-end="803" vertical-scroll-proportion="-13.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="21" selection-start="1309" selection-end="1326" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#76#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/themed/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="863" column="0" selection-start="109542" selection-end="109680" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/themed2/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="860" column="25" selection-start="109523" selection-end="109523" vertical-scroll-proportion="1.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClearBlueHomePage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ClearBlue/ClearBlueHomePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="89" selection-start="405" selection-end="405" vertical-scroll-proportion="-7.5">
+            <state line="868" column="0" selection-start="109898" selection-end="109898" vertical-scroll-proportion="-12.230769">
               <folding />
             </state>
           </provider>
@@ -168,28 +230,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CaracalApp/SeedData.py" />
-        <option value="$PROJECT_DIR$/Common/forms.py" />
+        <option value="$PROJECT_DIR$/templates/ClearBlue/PoolHelpMain.html" />
+        <option value="$PROJECT_DIR$/templates/ClearBlue/PoolHelpMain.htm" />
+        <option value="$PROJECT_DIR$/templates/ClearBlue/General/NavBar.htm" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/urls.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/forms.py" />
         <option value="$PROJECT_DIR$/CaracalApp/message_strings.py" />
         <option value="$PROJECT_DIR$/Common/message_strings.py" />
-        <option value="$PROJECT_DIR$/Common/registration_views.py" />
-        <option value="$PROJECT_DIR$/Common/view_helpers.py" />
-        <option value="$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html" />
-        <option value="$PROJECT_DIR$/templates/TradingZoneBaseTemplate.html" />
+        <option value="$PROJECT_DIR$/ClearBlueApp/forms.py" />
         <option value="$PROJECT_DIR$/CaracalApp/views/views.py" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/README" />
         <option value="$PROJECT_DIR$/ClearBlueApp/models.py" />
-        <option value="$PROJECT_DIR$/ClearBlueApp/message_strings.py" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/LoginPage.html" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" />
-        <option value="$PROJECT_DIR$/ClearBlueApp/views.py" />
-        <option value="$PROJECT_DIR$/templates/ClearBlue/ClearBlueHomePage.html" />
+        <option value="$PROJECT_DIR$/ClearBlueApp/services.py" />
         <option value="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/ClearBlueApp/message_strings.py" />
+        <option value="$PROJECT_DIR$/ClearBlueApp/views.py" />
+        <option value="$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="50" />
+    <option name="x" value="36" />
+    <option name="y" value="37" />
     <option name="width" value="1369" />
     <option name="height" value="826" />
   </component>
@@ -283,7 +345,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClearBlue" />
+              <option name="myItemId" value="Caracal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TraderZone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caracal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,6 +386,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Caracal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForSale_actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,14 +572,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ClearBlueApp" />
+      <recent name="$PROJECT_DIR$/templates/ClearBlue" />
+      <recent name="$PROJECT_DIR$/templates/ClearBlue/General" />
       <recent name="$PROJECT_DIR$/static/css/themed2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/Caracal/General" />
       <recent name="$PROJECT_DIR$/templates/ClearBlue/General" />
       <recent name="$PROJECT_DIR$/templates/Caracal" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/Common" />
-      <recent name="$PROJECT_DIR$/templates/General" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.TraderZone">
@@ -897,7 +984,11 @@
       <created>1372474388876</created>
       <updated>1372474388876</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add ClearBlue project&#10;Refactor out common elements">
+      <created>1372534451229</created>
+      <updated>1372534451229</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -921,16 +1012,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="50" width="1369" height="826" extended-state="0" />
+    <frame x="36" y="37" width="1369" height="826" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32719547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.6734375" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21164021" sideWeight="0.67280453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21164021" sideWeight="0.7053824" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30736545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.6734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1020,118 +1111,122 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TradingZoneSite/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.16030534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CaracalApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="0" selection-end="2039" vertical-scroll-proportion="0.9557522">
-          <folding>
-            <element signature="e#77#105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="148" selection-end="263" vertical-scroll-proportion="0.20610687">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Setup.txt">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/message_strings.py">
+    <entry file="file://$PROJECT_DIR$/CaracalApp/services.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="86" selection-end="142" vertical-scroll-proportion="0.114503816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClearBlueApp/message_strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.06870229">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="75" column="0" selection-start="1703" selection-end="2011" vertical-scroll-proportion="0.86259544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClearBlueApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3533" selection-end="3533" vertical-scroll-proportion="0.0">
+        <state line="11" column="29" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#77#105#0" expanded="false" />
+            <element signature="e#77#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html">
+    <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="285" selection-end="412" vertical-scroll-proportion="0.4964539">
+        <state line="28" column="0" selection-start="881" selection-end="932" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Auth_Auth/LoginPage.html">
+    <entry file="file://$PROJECT_DIR$/TradingZoneSite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="-6.875">
-          <folding />
+        <state line="28" column="35" selection-start="860" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Auth_Auth/RegistrationThankYou.htm">
+    <entry file="file://$PROJECT_DIR$/static/css/themed/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.43721974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="239" selection-end="239" vertical-scroll-proportion="0.28723404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1991248">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingZoneSite/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="31" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ClearBlue/ClearBlueHomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="89" selection-start="405" selection-end="405" vertical-scroll-proportion="-7.5">
+        <state line="863" column="0" selection-start="109542" selection-end="109680" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/themed2/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="860" column="25" selection-start="109523" selection-end="109523" vertical-scroll-proportion="1.125">
+        <state line="868" column="0" selection-start="109898" selection-end="109898" vertical-scroll-proportion="-12.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClearBlueApp/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#79#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Caracal/General/HomePage.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1118" selection-end="1133" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClearBlueApp/message_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="462" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="21" selection-start="1309" selection-end="1326" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#76#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Caracal/CaracalHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Caracal/ForSale_actions/ForSaleItems.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="10" selection-start="803" selection-end="803" vertical-scroll-proportion="-13.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="12" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.5752773">
           <folding />
         </state>
       </provider>

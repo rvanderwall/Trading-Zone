@@ -24,9 +24,6 @@ mail_body = _("%(intro)s\nPlease let me know if it's still available.\nThanks")
 invalid_price = _("Please enter a valid price, like 150.00.")
 
 
-# System wide strings
-invalid_not_logged_in = _("You are not logged in")
-
 # Strings for the title
 section_about = _("About")
 section_show_items = _("Show Items For Sale")

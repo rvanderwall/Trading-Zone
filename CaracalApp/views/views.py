@@ -11,7 +11,8 @@ from CaracalApp.services import get_sellers, get_contact_info
 from CaracalApp.services import get_hunt_list, add_hunt_entry
 
 from CaracalApp.message_strings import section_show_items, section_show_details
-from CaracalApp.message_strings import section_sell_item, section_add_hunt, invalid_not_logged_in
+from CaracalApp.message_strings import section_sell_item, section_add_hunt
+from Common.message_strings import  invalid_not_logged_in
 
 from Common.view_helpers import render_template
 
@@ -38,7 +39,7 @@ def items_for_sale(request):
     action_template = "Caracal/ForSale_actions/ForSaleItems.htm"
     return render_action_template(request, locals())
 
-def itemDetails(request, item_id):
+def item_details(request, item_id):
     item = get_item_details(item_id)
     if item != None:
         email, subject, body = get_contact_info(item)
@@ -49,7 +50,7 @@ def itemDetails(request, item_id):
     else:
         return render_template(request, "ItemNotFound.html", locals())
 
-def sellAnItem(request):
+def sell_an_item(request):
     if request.user.is_anonymous():
         return HttpResponse(invalid_not_logged_in)
 

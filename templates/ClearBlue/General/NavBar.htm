@@ -1,0 +1,28 @@
+{# This template should be included in the Home template to get the NavBar #}
+{# REQUIRED: user #}
+
+{% load i18n %}
+
+<div class="navBar" xmlns="http://www.w3.org/1999/html">
+    <div class="navBar-inner">
+        <ul class="nav">
+            <li><a href="/cb/">{% trans "Home" %}</a></li>
+            <li><a href="/poolHelp/">{% trans "Pool Help" %}</a></li>
+            <li><a href="/chemTest/">{% trans "Chemical Tests" %}</a></li>
+            <li><a href="/poolMaint/">{% trans "Pool Maintenance" %}</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="/searchNotifications/">{% trans "Notifications" %}</a></li>
+                <li><a href="/sellAnItem/">{% trans "Sell Item" %}</a></li>
+                <li><a href="/logout/">{% trans "Log out" %}</a></li>
+            {% else %}
+                <li><a href="/login/">{% trans "Login/Register" %}</a></li>
+            {% endif %}
+        </ul>
+        {% if user.is_authenticated %}
+            <p class="nav-user">{% trans "Welcome" %}, {{ user.username }}</p>
+        {% endif %}
+        <a class="btn btn-small btn-info" href="/about/">
+            <i class="icon-info-sign"></i>{% trans "Info" %}
+        </a>
+    </div>
+</div>

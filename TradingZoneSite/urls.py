@@ -24,6 +24,10 @@ urlpatterns = patterns('',
 
 urlpatterns = patterns('',
     (r'^cb/$', CB.about),
+    (r'^poolHelp/$', CB.pool_help),
+    (r'^chemTest/$', CB.chem_test),
+    (r'^poolMaint/$', CB.pool_maint),
+
     )
 
 urlpatterns += patterns('',
@@ -34,8 +38,8 @@ urlpatterns += patterns('',
     (r'^login/$', registration_views.login),
     (r'^logout/$', registration_views.logout),
     (r'^forSaleItems/$', views.items_for_sale),
-    (r'^itemDetails/(\d{1,2})/$', views.itemDetails),
-    (r'^sellAnItem/$', view_helpers.requires_login(views.sellAnItem)),
+    (r'^itemDetails/(\d{1,2})/$', views.item_details),
+    (r'^sellAnItem/$', view_helpers.requires_login(views.sell_an_item)),
     (r'^searchNotifications/$', view_helpers.requires_login(views.hunt_list)),
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

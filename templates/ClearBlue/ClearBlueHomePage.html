@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/themed2/bootstrap.min.css">
 {% endblock %}
 
+{% block nav_bar %}
+{%  include "ClearBlue/General/NavBar.htm" %}
+{% endblock %}
+
 {% block header %}
     {% trans "Welcome to Clear Blue." %}
     {%  if DEBUG %}

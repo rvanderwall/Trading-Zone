@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="{{  STATIC_PREFIX }}../static/css/themed/bootstrap.min.css">
 {% endblock %}
 
+{% block nav_bar %}
+{%  include "Caracal/General/NavBar.htm" %}
+{% endblock %}
+
 {% block header %}
     {% trans "Welcome to the Trading Zone." %}
     {%  if DEBUG %}
