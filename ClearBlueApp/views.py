@@ -26,21 +26,21 @@ def pool_maint(request):
     return render_action_template(request, locals())
 
 def chem_test(request):
-#    if request.user.is_anonymous():
-#        return django.http.HttpResponse(invalid_not_logged_in)
+    if request.user.is_anonymous():
+        return django.http.HttpResponse(invalid_not_logged_in)
 
     if request.method == 'POST':
         form=PoolChemicalTest(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            create_pool_test(cd['title'], cd['description'], cd['price'], request.user)
+            create_pool_test(cd['ph'], cd['chlorine_level'], request.user)
             created=True
             form = PoolChemicalTest()
     else:
         form = PoolChemicalTest()
 
     current_section = section_add_test
-    pool_test_results = get_pool_tests()
+    pool_test_results = get_pool_tests(None)
     action_template = "ClearBlue/AddChemicalTest.htm"
     return render_action_template(request, locals())
 

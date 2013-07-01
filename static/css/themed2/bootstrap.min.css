@@ -864,5 +864,11 @@ table{background-color:#52C7EB; table-layout: fixed; border: 1px solid black;}
 
 tr{border: 1px solid black;}
 td{padding:1px;}
+.poolTestDetailsRow{padding:50px;}
+.poolTestDetailsDate{border: 1px solid black; color:#2222ff;}
+.poolTestChem{color:#222288; text-align: right;};
+.test_result_date{width: 50px; text-align: center}
+.test_result_num{width: 70px; text-align: center}
+
 .newUser{font-weight: bold;}
 .nav-user{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:20px;line-height:20px;color:#c8aaaa}

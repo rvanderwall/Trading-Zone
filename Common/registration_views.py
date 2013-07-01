@@ -5,6 +5,8 @@ __copyright__ = "QED Testing, Inc. 2013"
 from CaracalApp.views.views import render_action_template
 from CaracalApp.services import create_seller
 
+from ClearBlueApp.services import create_customer
+
 from Common.forms import RegistrationForm, LoginForm
 from Common.view_helpers import render_template
 from Common.message_strings import section_registration_compete
@@ -40,6 +42,7 @@ def register(request):
         if form.is_valid():
             new_user = form.save()
             create_seller(new_user)
+            create_customer(new_user)
             current_section = section_registration_compete
             action_template = "Auth_Auth/RegistrationThankYou.htm"
             return render_action_template(request, locals())

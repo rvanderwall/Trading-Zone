@@ -5,7 +5,8 @@ __copyright__ = "QED Testing, Inc. 2013"
 import datetime
 from models import HuntEntry, ItemForSale, Seller
 from listing_processor import add_a_listing
-from message_strings import mail_subject, mail_body, default_address, default_city, default_state
+from message_strings import mail_subject, mail_body
+from Common.message_strings import default_address, default_city, default_state
 
 #
 # CRUD for ItemForSale objects

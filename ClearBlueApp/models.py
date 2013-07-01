@@ -31,12 +31,12 @@ class ChemicalPoolTest(models.Model):
     customer = models.ForeignKey(Customer)
     date_of_test = models.DateField(blank=False)
 
-    ph = models.DecimalField(max_digits=2, decimal_places=2, blank=True, help_text="0 - 10.0")
-    acid_demand = models.DecimalField(max_digits=3, decimal_places=0, blank=True, help_text="0-99 cups")
-    chlorine_level = models.DecimalField(max_digits=4, decimal_places=2, blank=True, help_text="color based")
-    bromine_level = models.DecimalField(max_digits=4, decimal_places=2, blank=True, help_text="color based")
-    alkalinity = models.DecimalField(max_digits=4, decimal_places=2, blank=True, help_text="0-99.0")
-    hardness = models.DecimalField(max_digits=4, decimal_places=2, blank=True, help_text="0-99.0")
+    ph = models.DecimalField(max_digits=4, decimal_places=2, blank=True, null=True, help_text="0 - 10.0")
+    acid_demand = models.DecimalField(max_digits=3, decimal_places=0, blank=True, null=True, help_text="0-99 cups")
+    chlorine_level = models.DecimalField(max_digits=4, decimal_places=2, blank=True, null=True, help_text="color based")
+    bromine_level = models.DecimalField(max_digits=4, decimal_places=2, blank=True, null=True, help_text="color based")
+    alkalinity = models.DecimalField(max_digits=4, decimal_places=2, blank=True, null=True, help_text="0-99.0")
+    hardness = models.DecimalField(max_digits=4, decimal_places=2, blank=True, null=True, help_text="0-99.0")
 
     notes = models.CharField(max_length=500, blank=True)
 

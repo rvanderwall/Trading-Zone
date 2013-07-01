@@ -15,7 +15,7 @@
     {% endif %}
 
     <form enctype="multipart/form-data" action="" method="post">{% csrf_token %}
-        <table>
+        <table class="testResultsForm">
             {{ form.as_table }}
         </table>
         <input type="submit" value="Save Pool Test Results">
@@ -25,33 +25,34 @@
 <div class="span4 offset1">
     {% for test_result in pool_test_results %}
         {% if forloop.first %}
-            <table class="PoolTestResults">
+            <table >
+            <tr><td class="test_result_date">Date</td>
+                <td class="test_result_num">pH</td>
+                <td class="test_result_num">Chlorine</td></tr>
          {% endif %}
-        <tr>
-          <td>
-            <span>
-                <a class="forSaleDescription" href="/itemDetails/{{ item.id }}">
-                    {{ item.title }}
+        <tr class="poolTestDetailsRow">
+          <td class="poolTestDetailsDate">
+             <span>
+                <a class="poolTestDetails" href="/testDetails/{{ test_result.id }}">
+                    {{ test_result.date_of_test }}
                 </a>
-            </span>
-      </td>
-      <td>
-        <span class="forSaleDate">{{ item.listing_date }}</span>
-      </td>
-      <td>
-        <span class="forSaleCurrency">$</span>
-        <span class="forSalePrice">{{ item.price }}</span>
-      </td>
-    </tr>
+             </span>
+          </td>
+          <td class="poolTestChem">
+             <span>{{ test_result.ph }}</span>
+          </td>
+          <td class="poolTestChem">
+             <span>{{ test_result.chlorine_level }}</span>
+          </td>
+        </tr>
 
-  {% if forloop.last %}
-    </table>
-  {% endif %}
+        {% if forloop.last %}
+          </table>
+        {% endif %}
 
-{% empty %}
-    <p>{% trans "No items match your search terms" %}.</p>
-
-{% endfor %}
+        {% empty %}
+            <p>{% trans "No Tests yet." %}.</p>
+    {% endfor %}
 
 </div>
 </div>
