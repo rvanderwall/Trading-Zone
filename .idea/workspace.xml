@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpora/LargeWordCorpus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaracalApp/SpellChecker.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteData.db" afterPath="$PROJECT_DIR$/SiteData.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm" afterPath="$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ClearBlue/General/NavBar.htm" afterPath="$PROJECT_DIR$/templates/ClearBlue/General/NavBar.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" afterPath="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Auth_Auth/RegistrationThankYou.htm" afterPath="$PROJECT_DIR$/templates/Auth_Auth/RegistrationThankYou.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/forms.py" afterPath="$PROJECT_DIR$/ClearBlueApp/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/message_strings.py" afterPath="$PROJECT_DIR$/CaracalApp/message_strings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/message_strings.py" afterPath="$PROJECT_DIR$/Common/message_strings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/models.py" afterPath="$PROJECT_DIR$/ClearBlueApp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/registration_views.py" afterPath="$PROJECT_DIR$/Common/registration_views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/services.py" afterPath="$PROJECT_DIR$/CaracalApp/services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/services.py" afterPath="$PROJECT_DIR$/ClearBlueApp/services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClearBlueApp/views.py" afterPath="$PROJECT_DIR$/ClearBlueApp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/tests/tests.py" afterPath="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tutucu.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048900463" ignored="false" />
+    <file path="/a.dummy" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372648891726" ignored="false" />
     <file path="/urls.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536494144" ignored="false" />
     <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372641162474" ignored="false" />
     <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372635043491" ignored="false" />
@@ -49,8 +39,8 @@
     <file path="/ItemDetailsTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247995137" ignored="false" />
     <file path="/register.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366933476547" ignored="false" />
     <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372636056118" ignored="false" />
-    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372640050661" ignored="false" />
-    <file path="/tests.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1371254697715" ignored="false" />
+    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373156665464" ignored="false" />
+    <file path="/tests.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373156174897" ignored="false" />
     <file path="/RegistrationThankYou.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184691144" ignored="false" />
     <file path="/view_helpers.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372474110729" ignored="false" />
     <file path="/Login.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184173897" ignored="false" />
@@ -102,6 +92,8 @@
     <file path="/CaracalHomePage.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372535989904" ignored="false" />
     <file path="/PoolHelpMain.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536277820" ignored="false" />
     <file path="/AddChemicalTest.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372639368257" ignored="false" />
+    <file path="/SpellChecker.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373155188157" ignored="false" />
+    <file path="/fragment.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373156000089" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,58 +122,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/db/models/base.py">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClearBlueApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="647" column="0" selection-start="29278" selection-end="29278" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message_strings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+            <state line="42" column="26" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
+        <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+            <state line="93" column="45" selection-start="3150" selection-end="3150" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="django.po" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="13" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setup.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Setup.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="0" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listing_processor.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CaracalApp/listing_processor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpellChecker.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CaracalApp/SpellChecker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CaracalApp/tests/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.8136792">
               <folding>
-                <element signature="e#76#94#0" expanded="true" />
+                <element signature="e#248#263#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddChemicalTest.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="975" selection-end="990" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClearBlueApp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="26" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.69863015">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -214,8 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CaracalApp/views/views.py" />
-        <option value="$PROJECT_DIR$/TradingZoneSite/README" />
         <option value="$PROJECT_DIR$/ClearBlueApp/message_strings.py" />
         <option value="$PROJECT_DIR$/ClearBlueApp/forms.py" />
         <option value="$PROJECT_DIR$/CaracalApp/message_strings.py" />
@@ -230,12 +229,14 @@
         <option value="$PROJECT_DIR$/ClearBlueApp/views.py" />
         <option value="$PROJECT_DIR$/ClearBlueApp/services.py" />
         <option value="$PROJECT_DIR$/ClearBlueApp/models.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/SpellChecker.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="55" />
+    <option name="x" value="41" />
+    <option name="y" value="51" />
     <option name="width" value="1369" />
     <option name="height" value="826" />
   </component>
@@ -294,197 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClearBlue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClearBlue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="General" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themed2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingZoneSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClearBlueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CaracalApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TraderZone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CaracalApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="Corpora" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,14 +333,36 @@
       <recent name="$PROJECT_DIR$/static/css/themed2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Corpora" />
       <recent name="$PROJECT_DIR$/templates/Caracal/General" />
       <recent name="$PROJECT_DIR$/templates/ClearBlue/General" />
       <recent name="$PROJECT_DIR$/templates/Caracal" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/Common" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.TraderZone">
+  <component name="RunManager" selected="Python.Tests">
+    <configuration default="false" name="Test: CaracalApp.SimpleTestCase.test_speller_transpose_letter" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="CaracalApp.SimpleTestCase.test_speller_transpose_letter" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -798,15 +631,23 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Django server.TraderZone" />
       <item index="1" class="java.lang.String" itemvalue="Django tests.Test: CaracalApp.SimpleTest" />
       <item index="2" class="java.lang.String" itemvalue="Python.Tests" />
+      <item index="3" class="java.lang.String" itemvalue="Django tests.Test: CaracalApp.SimpleTestCase.test_speller_transpose_letter" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: CaracalApp.SimpleTestCase.test_speller_transpose_letter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -936,10 +777,14 @@
       <created>1372633777020</created>
       <updated>1372633777020</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add ClearBlue project&#10;Refactor out common elements">
+      <created>1372641307757</created>
+      <updated>1372641307758</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -960,15 +805,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="55" width="1369" height="826" extended-state="0" />
+    <frame x="41" y="51" width="1369" height="826" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32719547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.6734375" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21466364" sideWeight="0.5875706" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4124294" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21466364" sideWeight="0.67280453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33427763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.6734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29461756" sideWeight="0.9879063" order="2" side_tool="false" content_ui="tabs" />
@@ -976,8 +823,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1055,62 +900,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/CaracalApp/tests/tests.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="45" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="592" selection-end="592" vertical-scroll-proportion="0.59859157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Auth_Auth/RegistrationThankYou.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.37313432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="677" selection-end="677" vertical-scroll-proportion="0.74626863" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Auth_Auth/LoginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.26119402" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/registration_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.28169015" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="52" selection-start="773" selection-end="773" vertical-scroll-proportion="-0.8017817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ClearBlue/General/NavBar.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="358" selection-end="358" vertical-scroll-proportion="0.31764707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="975" selection-end="990" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0">
@@ -1157,8 +960,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClearBlueApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.69863015">
+        <state line="42" column="26" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="45" selection-start="3150" selection-end="3150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="13" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Setup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="0" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/listing_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="32" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.51073986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Corpora/LargeWordCorpus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="115" selection-start="6732" selection-end="6737" vertical-scroll-proportion="-38.707893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/SpellChecker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaracalApp/tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.8136792">
+          <folding>
+            <element signature="e#248#263#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

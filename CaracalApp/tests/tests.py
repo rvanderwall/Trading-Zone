@@ -9,6 +9,7 @@ Replace this with more appropriate tests for your application.
 import unittest
 from django.test import TestCase
 from CaracalApp.listing_processor import extract_nouns
+from CaracalApp.SpellChecker import correct
 
 class SimpleTestCase(TestCase):
     def setUp(self):
@@ -29,6 +30,30 @@ class SimpleTestCase(TestCase):
         Tests that 1 + 1 always equals 2.
         """
         self.assertEqual(1 + 1, 2)
+
+    def test_speller_good_word(self):
+        result = correct("speling")
+        self.assertEqual(result, "spelling")
+
+    def test_speller_short_common_word(self):
+        result = correct("teh")
+        self.assertEqual(result, "the")
+
+    def test_speller_long_common_word(self):
+        result = correct("cigarete")
+        self.assertEqual(result, "cigarette")
+
+    def test_speller_delete_letter(self):
+        result = correct("cigarete")
+        self.assertEqual(result, "cigarette")
+
+    def test_speller_insert_letter(self):
+        result = correct("cigarrette")
+        self.assertEqual(result, "cigarette")
+
+    def test_speller_bad_word(self):
+        result = correct("xxxdddd")
+        self.assertEqual(result, "xxxdddd")
 
 if __name__ == '__main__':
     unittest.main()
