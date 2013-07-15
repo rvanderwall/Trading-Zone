@@ -58,7 +58,10 @@ def sell_an_item(request):
         form=ItemForSaleForm(request.POST, request.FILES)
         if form.is_valid():
             cd = form.cleaned_data
-            fileSize = request.FILES['file'].size
+            if request.FILES.has_key('file'):
+                fileSize = request.FILES['file'].size
+            else:
+                fileSize = 0
             email_count = add_item_for_sale(cd['title'], cd['description'], cd['price'], request.user)
             created=True
             form = ItemForSaleForm()
