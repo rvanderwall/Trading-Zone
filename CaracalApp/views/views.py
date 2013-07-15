@@ -91,4 +91,5 @@ def hunt_list(request):
 
 
 def render_action_template(request, p_locals):
+    assert p_locals["request"].user != None
     return render_template(request, 'Caracal/CaracalHomePage.html', p_locals)

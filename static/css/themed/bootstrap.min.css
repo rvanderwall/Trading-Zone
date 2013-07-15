@@ -871,3 +871,4 @@ a.forSaleDescription{color:#ffffff;text-decoration:underline;background-color:#B
 a.forSaleDescription:visited{color:#261208;text-decoration:underline;background-color:#BFB549;}
 .newUser{font-weight: bold;}
 .nav-user{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:20px;line-height:20px;color:#c8aaaa}
+.input .uneditable-input {height:25px}

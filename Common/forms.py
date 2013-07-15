@@ -17,6 +17,17 @@ class RegistrationForm(UserCreationForm):
             error_messages = {
             'invalid': invalid_email,})
 
+    def clean_username(self):
+        # We want case insensitivity, so use the case-insensitive lookup
+        username = self.cleaned_data["username"]
+        try:
+            User._default_manager.get(username__iexact=username)
+        except User.DoesNotExist:
+            return username
+        # Let upper level throw exception in is_valid()
+        self._errors["username"] = self.error_class([self.error_messages['duplicate_username']],)
+
+
     class Meta:
         model = User
         fields = ("username", "email", )

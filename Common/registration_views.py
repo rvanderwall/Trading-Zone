@@ -42,7 +42,7 @@ def register(request):
         if form.is_valid():
             new_user = form.save()
             create_seller(new_user)
-            create_customer(new_user)
+            create_customer(new_user)  # TODO: We create a user in both TZ and CB, should only be the one they register for
             current_section = section_registration_compete
             action_template = "Auth_Auth/RegistrationThankYou.htm"
             return render_action_template(request, locals())

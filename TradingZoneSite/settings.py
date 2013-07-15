@@ -143,8 +143,13 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'CaracalApp',
     'ClearBlueApp',
+    'Common',
     'SimpleApp',
 )
+
+# Added custom ModelBackend so I can get case insensitive login
+AUTHENTICATION_BACKENDS = ('TradingZoneSite.auth.CaseInsensitiveModelBackend','TradingZoneSite.auth.EmailAuthBackend')
+#AUTHENTICATION_BACKENDS = ('django.contrib.auth.backends.ModelBackend',)
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

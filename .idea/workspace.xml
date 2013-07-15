@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpora/LargeWordCorpus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaracalApp/SpellChecker.py" />
+    <list default="true" id="1962b54b-ea27-4fab-a86b-4f293bf57a7d" name="Default" comment="Add Spell checker and tests">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingZoneSite/auth.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteData.db" afterPath="$PROJECT_DIR$/SiteData.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/SpellChecker.py" afterPath="$PROJECT_DIR$/CaracalApp/SpellChecker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/themed/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/themed/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/forms.py" afterPath="$PROJECT_DIR$/Common/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/registration_views.py" afterPath="$PROJECT_DIR$/Common/registration_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingZoneSite/settings.py" afterPath="$PROJECT_DIR$/TradingZoneSite/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/tests/tests.py" afterPath="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CaracalApp/views/views.py" afterPath="$PROJECT_DIR$/CaracalApp/views/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tutucu.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372648891726" ignored="false" />
+    <file path="/a.dummy" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373827582557" ignored="false" />
     <file path="/urls.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536494144" ignored="false" />
-    <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372641162474" ignored="false" />
-    <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372635043491" ignored="false" />
+    <file path="/models.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373826663954" ignored="false" />
+    <file path="/views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373828214405" ignored="false" />
     <file path="/README" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372546263909" ignored="false" />
     <file path="/current_datetime.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365893864337" ignored="false" />
     <file path="/NavBar.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367183264323" ignored="false" />
     <file path="/BaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365893666402" ignored="false" />
-    <file path="/settings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372472073834" ignored="false" />
+    <file path="/settings.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373846584539" ignored="false" />
     <file path="/manage.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366159653022" ignored="false" />
     <file path="/TraderBaseTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370040966506" ignored="false" />
     <file path="/TraderHome.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1365903224416" ignored="false" />
@@ -32,14 +37,14 @@
     <file path="/AddItemForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366079873395" ignored="false" />
     <file path="/AddSearchNotificationTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366074801483" ignored="false" />
     <file path="/services.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372641041777" ignored="false" />
-    <file path="/forms.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372634275290" ignored="false" />
+    <file path="/forms.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373841957622" ignored="false" />
     <file path="/ForSaleTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366248150535" ignored="false" />
     <file path="/SearchNotificationTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366158048421" ignored="false" />
     <file path="/AddForSaleItemTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247427200" ignored="false" />
     <file path="/ItemDetailsTemplate.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366247995137" ignored="false" />
     <file path="/register.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1366933476547" ignored="false" />
-    <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372636056118" ignored="false" />
-    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373156665464" ignored="false" />
+    <file path="/registration_views.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373836890223" ignored="false" />
+    <file path="/Dummy.txt" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373846626285" ignored="false" />
     <file path="/tests.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373156174897" ignored="false" />
     <file path="/RegistrationThankYou.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1367184691144" ignored="false" />
     <file path="/view_helpers.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372474110729" ignored="false" />
@@ -57,7 +62,7 @@
     <file path="/404.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045284976" ignored="false" />
     <file path="/500.html" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045418371" ignored="false" />
     <file path="/ForSaleItems.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370048544249" ignored="false" />
-    <file path="/bootstrap.min.css" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372639419721" ignored="false" />
+    <file path="/bootstrap.min.css" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373830893568" ignored="false" />
     <file path="/ItemDetails.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1370045836372" ignored="false" />
     <file path="/RegistrationNameUsed.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1368376519108" ignored="false" />
     <file path="/RegistrationThankYou.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372635785257" ignored="false" />
@@ -93,7 +98,8 @@
     <file path="/PoolHelpMain.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372536277820" ignored="false" />
     <file path="/AddChemicalTest.htm" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1372639368257" ignored="false" />
     <file path="/SpellChecker.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373155188157" ignored="false" />
-    <file path="/fragment.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373156000089" ignored="false" />
+    <file path="/fragment.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373826390319" ignored="false" />
+    <file path="/CaseInsensitiveModelBackend.py" changelist="1962b54b-ea27-4fab-a86b-4f293bf57a7d" time="1373829267682" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,85 +119,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="services.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClearBlueApp/services.py">
+      <file leaf-file-name="registration_views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/registration_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClearBlueApp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="26" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="45" selection-start="3150" selection-end="3150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="django.po" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="13" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Setup.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Setup.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="0" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listing_processor.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/listing_processor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpellChecker.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/SpellChecker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CaracalApp/tests/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.8136792">
+            <state line="28" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#248#263#0" expanded="true" />
+                <element signature="e#89#146#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/themed2/bootstrap.min.css">
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="871" column="0" selection-start="110004" selection-end="110004" vertical-scroll-proportion="0.0">
+            <state line="25" column="27" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TradingZoneSite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="0" selection-start="5186" selection-end="5186" vertical-scroll-proportion="0.48582995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/contrib/auth/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="77" selection-start="3714" selection-end="3755" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/forms/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="6" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingZoneSite/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="30" selection-start="788" selection-end="804" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#293#346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,28 +196,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ClearBlueApp/message_strings.py" />
-        <option value="$PROJECT_DIR$/ClearBlueApp/forms.py" />
-        <option value="$PROJECT_DIR$/CaracalApp/message_strings.py" />
-        <option value="$PROJECT_DIR$/Common/message_strings.py" />
-        <option value="$PROJECT_DIR$/CaracalApp/services.py" />
-        <option value="$PROJECT_DIR$/templates/ClearBlue/General/NavBar.htm" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/RegisterPage.html" />
-        <option value="$PROJECT_DIR$/templates/Auth_Auth/RegistrationThankYou.htm" />
-        <option value="$PROJECT_DIR$/Common/registration_views.py" />
-        <option value="$PROJECT_DIR$/templates/ClearBlue/AddChemicalTest.htm" />
-        <option value="$PROJECT_DIR$/static/css/themed2/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/ClearBlueApp/views.py" />
         <option value="$PROJECT_DIR$/ClearBlueApp/services.py" />
         <option value="$PROJECT_DIR$/ClearBlueApp/models.py" />
-        <option value="$PROJECT_DIR$/CaracalApp/SpellChecker.py" />
         <option value="$PROJECT_DIR$/CaracalApp/tests/tests.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/SpellChecker.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/views/views.py" />
+        <option value="$PROJECT_DIR$/Common/CaseInsensitiveModelBackend.py" />
+        <option value="$PROJECT_DIR$/CaracalApp/models.py" />
+        <option value="$PROJECT_DIR$/static/css/themed/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/TZ_Common/c.py" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/TZ_Common/CastInsensitiveModelBackend.py" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/TZ_Common/__init__.py" />
+        <option value="$PROJECT_DIR$/Common/registration_views.py" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/auth.py" />
+        <option value="$PROJECT_DIR$/Common/forms.py" />
+        <option value="$PROJECT_DIR$/TradingZoneSite/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="51" />
+    <option name="x" value="21" />
+    <option name="y" value="45" />
     <option name="width" value="1369" />
     <option name="height" value="826" />
   </component>
@@ -295,7 +276,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TraderZone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TraderZone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TraderZone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradingZoneSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TraderZone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Corpora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TraderZone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,14 +369,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Common/forms.py" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -327,6 +390,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TradingZoneSite/TZ_Common" />
       <recent name="$PROJECT_DIR$/ClearBlueApp" />
       <recent name="$PROJECT_DIR$/templates/ClearBlue" />
       <recent name="$PROJECT_DIR$/templates/ClearBlue/General" />
@@ -340,7 +404,7 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Tests">
+  <component name="RunManager" selected="Django server.TraderZone">
     <configuration default="false" name="Test: CaracalApp.SimpleTestCase.test_speller_transpose_letter" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,6 +472,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tutucu" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,22 +510,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tutucu" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="browserUrl" value="" />
-      <option name="additionalOptions" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -463,27 +527,17 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DjangoProject" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -509,17 +563,27 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
-      <module name="" />
-      <option name="PORT" value="0" />
-      <option name="HOST" value="null" />
-      <PathMappingSettings>
-        <option name="pathMappings">
-          <list />
-        </option>
-      </PathMappingSettings>
-      <option name="REDIRECT_OUTPUT" value="true" />
-      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -781,7 +845,11 @@
       <created>1372641307757</created>
       <updated>1372641307758</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add Spell checker and tests">
+      <created>1373158582995</created>
+      <updated>1373158582995</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -805,24 +873,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="51" width="1369" height="826" extended-state="0" />
+    <frame x="21" y="45" width="1369" height="826" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32719547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32344633" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.6734375" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21466364" sideWeight="0.67280453" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33427763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23356009" sideWeight="0.7372881" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26271185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.6734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29461756" sideWeight="0.9879063" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2937853" sideWeight="0.9879063" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16242938" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -870,7 +938,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ClearBlue project&#10;Refactor out common elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Spell checker and tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -897,136 +965,132 @@
     <MESSAGE value="New changelist" />
     <MESSAGE value="Move static files" />
     <MESSAGE value="Add ClearBlue project&#10;Refactor out common elements" />
+    <MESSAGE value="Add Spell checker and tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/CaracalApp/tests/tests.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="48" />
+      <option name="time" value="64" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="57" column="12" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="647" column="0" selection-start="29278" selection-end="29278" vertical-scroll-proportion="0.0">
+        <state line="465" column="0" selection-start="20613" selection-end="20613" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClearBlueApp/views.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+        <state line="193" column="0" selection-start="5458" selection-end="5458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/views/decorators/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="457" selection-end="457" vertical-scroll-proportion="0.21028037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="22" selection-start="2141" selection-end="2166" vertical-scroll-proportion="0.12149533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/contrib/auth/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="18" selection-start="1596" selection-end="1611" vertical-scroll-proportion="0.24657534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="0" selection-start="10024" selection-end="10024" vertical-scroll-proportion="2.4611974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="0" selection-start="6568" selection-end="6568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="3.4246576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingZoneSite/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="788" selection-end="804" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#76#94#0" expanded="true" />
+            <element signature="e#293#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/themed/bootstrap.min.css">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/forms/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="864" column="0" selection-start="109680" selection-end="109737" vertical-scroll-proportion="0.36079547">
+        <state line="46" column="6" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/themed2/bootstrap.min.css">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="871" column="0" selection-start="110004" selection-end="110004" vertical-scroll-proportion="0.0">
+        <state line="292" column="49" selection-start="12270" selection-end="12270" vertical-scroll-proportion="0.4291498">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClearBlueApp/services.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/contrib/auth/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+        <state line="94" column="77" selection-start="3714" selection-end="3755" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClearBlueApp/models.py">
+    <entry file="file://$PROJECT_DIR$/Common/registration_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/views/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="45" selection-start="3150" selection-end="3150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="13" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/message_strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Setup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="0" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/listing_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="32" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.51073986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpora/LargeWordCorpus.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="115" selection-start="6732" selection-end="6737" vertical-scroll-proportion="-38.707893">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/SpellChecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaracalApp/tests/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.8136792">
+        <state line="28" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#248#263#0" expanded="true" />
+            <element signature="e#89#146#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="27" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingZoneSite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="0" selection-start="5186" selection-end="5186" vertical-scroll-proportion="0.48582995">
+          <folding />
         </state>
       </provider>
     </entry>

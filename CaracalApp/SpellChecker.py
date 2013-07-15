@@ -62,7 +62,7 @@ def known(words_to_check):
     """
     return set(w for w in words_to_check if w in NWORDS)
 
-def correct(word):
+def get_correct_spelling(word):
     """
         Find c with maximum P(c|w)
         P(c|w) = P(w|c) * P(c) / P(w)   -- Since w is constant, so is P(w) and it can be ignored
